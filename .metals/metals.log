@@ -1,0 +1,658 @@
+INFO  started: Metals version 0.8.1 in workspace '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty'
+INFO  time: initialize in 0.26s
+INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/45/j3hyd30s12s8dshrjtxqf0zr0000gp/T/metals1263723548565318983/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+INFO  skipping build import with status 'Started'
+INFO  [info] Loading global plugins from /Users/richardmelvin/.sbt/1.0/plugins
+INFO  [info] Loading settings for project sign-up-backend-dotty-build from plugins.sbt,metals.sbt ...
+INFO  [info] Loading project definition from /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/project
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project sign-up-backend-dotty from build.sbt ...
+INFO  [info] Set current project to sign-up-backend-dotty (in build file:/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/)
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/sign-up-backend-dotty-test.json
+INFO  [success] Generated .bloop/sign-up-backend-dotty-it.json
+INFO  [success] Generated .bloop/sign-up-backend-dotty.json
+INFO  [success] Total time: 2 s, completed 11-Mar-2020 19:39:40
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 13s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/45/j3hyd30s12s8dshrjtxqf0zr0000gp/T/bsp-launcher5354922541783978507/bsp.socket'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.0-RC1-69-693de22a...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 3 projects from '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/.bloop/sign-up-backend-dotty.json'
+[0m[32m[D][0m Loading project from '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/.bloop/sign-up-backend-dotty-test.json'
+[0m[32m[D][0m Loading project from '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/.bloop/sign-up-backend-dotty-it.json'
+[0m[32m[D][0m Cache miss for scala instance ch.epfl.lamp:scala-compiler:0.22.0-RC1.
+[0m[32m[D][0m   => /Users/richardmelvin/.ivy2/cache/ch.epfl.lamp/dotty-compiler_0.22/jars/dotty-compiler_0.22-0.22.0-RC1.jar
+[0m[32m[D][0m   => /Users/richardmelvin/.ivy2/cache/ch.epfl.lamp/dotty-interfaces/jars/dotty-interfaces-0.22.0-RC1.jar
+[0m[32m[D][0m   => /Users/richardmelvin/.ivy2/cache/ch.epfl.lamp/dotty-library_0.22/jars/dotty-library_0.22-0.22.0-RC1.jar
+[0m[32m[D][0m   => /Users/richardmelvin/.ivy2/cache/ch.epfl.lamp/tasty-core_0.22/jars/tasty-core_0.22-0.22.0-RC1.jar
+[0m[32m[D][0m   => /Users/richardmelvin/.ivy2/cache/net.java.dev.jna/jna/jars/jna-4.2.2.jar
+[0m[32m[D][0m   => /Users/richardmelvin/.ivy2/cache/org.jline/jline-reader/jars/jline-reader-3.9.0.jar
+[0m[32m[D][0m   => /Users/richardmelvin/.ivy2/cache/org.jline/jline-terminal-jna/jars/jline-terminal-jna-3.9.0.jar
+[0m[32m[D][0m   => /Users/richardmelvin/.ivy2/cache/org.jline/jline-terminal/jars/jline-terminal-3.9.0.jar
+[0m[32m[D][0m   => /Users/richardmelvin/.ivy2/cache/org.scala-lang.modules/scala-asm/bundles/scala-asm-7.3.1-scala-1.jar
+[0m[32m[D][0m   => /Users/richardmelvin/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.1.jar
+[0m[32m[D][0m   => /Users/richardmelvin/.ivy2/cache/org.scala-sbt/compiler-interface/jars/compiler-interface-1.2.5.jar
+[0m[32m[D][0m   => /Users/richardmelvin/.ivy2/cache/org.scala-sbt/util-interface/jars/util-interface-1.2.2.jar
+[0m[32m[D][0m Missing analysis file for project 'sign-up-backend-dotty'
+[0m[32m[D][0m Missing analysis file for project 'sign-up-backend-dotty-test'
+[0m[32m[D][0m Missing analysis file for project 'sign-up-backend-dotty-it'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/45/j3hyd30s12s8dshrjtxqf0zr0000gp/T/bsp-launcher5354922541783978507/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/45/j3hyd30s12s8dshrjtxqf0zr0000gp/T/bsp-launcher5354922541783978507/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/richardmelvin/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  time: connected to build server in 7.03s
+INFO  Connected to Build server v1.4.0-RC1-69-693de22a
+INFO  time: imported build in 0.12s
+INFO  time: indexed workspace in 3.18s
+WARN  unsupported Scala 0.22.0-RC1
+Mar 11, 2020 7:40:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+INFO  compiling sign-up-backend-dotty (11 scala sources and 1 java source)
+INFO  exception occurred while compiling /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/CheckLoginDetailsController.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/models/LoginDetailsModel.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/models/UserDetailsModel.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/repositories/AccountsRepository.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/services/CheckLoginDetailsService.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/services/StoreUserDetailsService.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/controllers/ReverseRoutes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/router/Routes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/router/RoutesPrefix.scala
+INFO  time: compiled sign-up-backend-dotty in 3.16s
+ERROR Unexpected error when compiling sign-up-backend-dotty: 'NoDenotation.owner'
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+INFO  compiling sign-up-backend-dotty (11 scala sources and 1 java source)
+INFO  exception occurred while compiling /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/CheckLoginDetailsController.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/models/LoginDetailsModel.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/models/UserDetailsModel.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/repositories/AccountsRepository.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/services/CheckLoginDetailsService.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/services/StoreUserDetailsService.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/controllers/ReverseRoutes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/router/Routes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/router/RoutesPrefix.scala
+INFO  time: compiled sign-up-backend-dotty in 0.83s
+ERROR Unexpected error when compiling sign-up-backend-dotty: 'NoDenotation.owner'
+INFO  compiling sign-up-backend-dotty (11 scala sources and 1 java source)
+INFO  exception occurred while compiling /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/CheckLoginDetailsController.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/models/LoginDetailsModel.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/models/UserDetailsModel.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/repositories/AccountsRepository.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/services/CheckLoginDetailsService.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/services/StoreUserDetailsService.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/controllers/ReverseRoutes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/router/Routes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/router/RoutesPrefix.scala
+INFO  time: compiled sign-up-backend-dotty in 0.63s
+ERROR Unexpected error when compiling sign-up-backend-dotty: 'NoDenotation.owner'
+Exception in thread "pool-1-thread-3" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:27)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionCancelChecker.isCancelled(MtagsEnrichments.scala:446)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$isCancelled$1(FormattingProvider.scala:62)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$isCancelled$1$adapted(FormattingProvider.scala:62)
+	at scala.Option.exists(Option.scala:376)
+	at scala.meta.internal.metals.FormattingProvider.isCancelled(FormattingProvider.scala:62)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$handleMissingFile$1(FormattingProvider.scala:174)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$handleMissingFile$1$adapted(FormattingProvider.scala:167)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+INFO  compiling sign-up-backend-dotty (11 scala sources and 1 java source)
+WARN  unsupported Scala 0.22.0-RC1
+INFO  exception occurred while compiling /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/CheckLoginDetailsController.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/models/LoginDetailsModel.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/models/UserDetailsModel.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/repositories/AccountsRepository.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/services/CheckLoginDetailsService.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/services/StoreUserDetailsService.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/controllers/ReverseRoutes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/router/Routes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/router/RoutesPrefix.scala
+INFO  time: compiled sign-up-backend-dotty in 0.59s
+ERROR Unexpected error when compiling sign-up-backend-dotty: 'NoDenotation.owner'
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+ERROR code navigation does not work for the file '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala' because the Scala version 0.22.0-RC1 is not supported. To fix this problem, change the Scala version to 2.13.1 or 2.12.10 or 2.11.12.
+ERROR code navigation does not work for the file '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala' because the Scala version 0.22.0-RC1 is not supported. To fix this problem, change the Scala version to 2.13.1 or 2.12.10 or 2.11.12.
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+ERROR code navigation does not work for the file '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala' because the Scala version 0.22.0-RC1 is not supported. To fix this problem, change the Scala version to 2.13.1 or 2.12.10 or 2.11.12.
+ERROR code navigation does not work for the file '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala' because the Scala version 0.22.0-RC1 is not supported. To fix this problem, change the Scala version to 2.13.1 or 2.12.10 or 2.11.12.
+WARN  unsupported Scala 0.22.0-RC1
+ERROR scalafmt: /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala:15: error: : expected but identifier found
+                                          )(given ExecutionContext) extends BaseController {
+                                                  ^
+WARN  unsupported Scala 0.22.0-RC1
+ERROR scalafmt: /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala:15: error: : expected but identifier found
+                                          )(given ExecutionContext) extends BaseController {
+                                                  ^
+ERROR scalafmt: /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala:15: error: : expected but identifier found
+                                          )(given ExecutionContext) extends BaseController {
+                                                  ^
+ERROR scalafmt: /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala:15: error: : expected but identifier found
+                                          )(given ExecutionContext) extends BaseController {
+                                                  ^
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+ERROR scalafmt: /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala:15: error: : expected but identifier found
+                                          )(given ExecutionContext) extends BaseController {
+                                                  ^
+INFO  compiling sign-up-backend-dotty (11 scala sources and 1 java source)
+INFO  exception occurred while compiling /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/CheckLoginDetailsController.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/models/LoginDetailsModel.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/models/UserDetailsModel.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/repositories/AccountsRepository.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/services/CheckLoginDetailsService.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/services/StoreUserDetailsService.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/controllers/ReverseRoutes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/router/Routes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/router/RoutesPrefix.scala
+INFO  time: compiled sign-up-backend-dotty in 0.54s
+ERROR Unexpected error when compiling sign-up-backend-dotty: 'NoDenotation.owner'
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+ERROR scalafmt: /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala:15: error: : expected but identifier found
+                                          )(using ExecutionContext) extends BaseController {
+                                                  ^
+INFO  compiling sign-up-backend-dotty (11 scala sources and 1 java source)
+INFO  exception occurred while compiling /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/CheckLoginDetailsController.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/models/LoginDetailsModel.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/models/UserDetailsModel.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/repositories/AccountsRepository.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/services/CheckLoginDetailsService.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/services/StoreUserDetailsService.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/controllers/ReverseRoutes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/router/Routes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/router/RoutesPrefix.scala
+INFO  time: compiled sign-up-backend-dotty in 0.52s
+ERROR Unexpected error when compiling sign-up-backend-dotty: 'NoDenotation.owner'
+WARN  unsupported Scala 0.22.0-RC1
+INFO  compiling sign-up-backend-dotty (11 scala sources and 1 java source)
+INFO  exception occurred while compiling /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/CheckLoginDetailsController.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/models/LoginDetailsModel.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/models/UserDetailsModel.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/repositories/AccountsRepository.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/services/CheckLoginDetailsService.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/services/StoreUserDetailsService.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/controllers/ReverseRoutes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/router/Routes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/router/RoutesPrefix.scala
+INFO  time: compiled sign-up-backend-dotty in 0.42s
+ERROR Unexpected error when compiling sign-up-backend-dotty: 'NoDenotation.owner'
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/45/j3hyd30s12s8dshrjtxqf0zr0000gp/T/metals7914771203202930548/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+INFO  [info] Loading global plugins from /Users/richardmelvin/.sbt/1.0/plugins
+INFO  [info] Loading settings for project sign-up-backend-dotty-build from plugins.sbt,metals.sbt ...
+INFO  [info] Loading project definition from /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/project
+INFO  [info] Loading settings for project sign-up-backend-dotty from build.sbt ...
+INFO  [info] Set current project to sign-up-backend-dotty (in build file:/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/)
+INFO  [success] Generated .bloop/sign-up-backend-dotty.json
+INFO  [success] Generated .bloop/sign-up-backend-dotty-it.json
+INFO  [success] Generated .bloop/sign-up-backend-dotty-test.json
+INFO  [success] Total time: 1 s, completed 11-Mar-2020 19:44:49
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 11s
+INFO  disconnected: build server
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/45/j3hyd30s12s8dshrjtxqf0zr0000gp/T/bsp-launcher7458907799935254922/bsp.socket'...
+Waiting for the bsp connection to come up...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 3 projects from '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/.bloop/sign-up-backend-dotty.json'
+[0m[32m[D][0m Loading project from '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/.bloop/sign-up-backend-dotty-it.json'
+[0m[32m[D][0m Loading project from '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/.bloop/sign-up-backend-dotty-test.json'
+[0m[32m[D][0m Skipped configuration of SemanticDB in unsupported 0.22.0-RC1 projects
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/45/j3hyd30s12s8dshrjtxqf0zr0000gp/T/bsp-launcher7458907799935254922/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/45/j3hyd30s12s8dshrjtxqf0zr0000gp/T/bsp-launcher7458907799935254922/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/richardmelvin/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  Connected to Build server v1.4.0-RC1-69-693de22a
+INFO  time: indexed workspace in 0.79s
+WARN  unsupported Scala 0.22.0-RC1
+INFO  compiling sign-up-backend-dotty (11 scala sources and 1 java source)
+INFO  compiling sign-up-backend-dotty-test (10 scala sources)
+INFO  compiling sign-up-backend-dotty-it (8 scala sources)
+INFO  time: compiled sign-up-backend-dotty in 3.02s
+ERROR Bad symbolic reference. A signature
+refers to MethodRule/T in package org.junit.rules which is not available.
+It may be completely missing from the current classpath, or the version on
+the classpath might be incompatible with the version used when compiling the signature.
+ERROR Bad symbolic reference. A signature
+refers to TestRule/T in package org.junit.rules which is not available.
+It may be completely missing from the current classpath, or the version on
+the classpath might be incompatible with the version used when compiling the signature.
+ERROR Bad symbolic reference. A signature
+refers to MethodRule/T in package org.junit.rules which is not available.
+It may be completely missing from the current classpath, or the version on
+the classpath might be incompatible with the version used when compiling the signature.
+ERROR Bad symbolic reference. A signature
+refers to TestRule/T in package org.junit.rules which is not available.
+It may be completely missing from the current classpath, or the version on
+the classpath might be incompatible with the version used when compiling the signature.
+ERROR Bad symbolic reference. A signature
+refers to MethodRule/T in package org.junit.rules which is not available.
+It may be completely missing from the current classpath, or the version on
+the classpath might be incompatible with the version used when compiling the signature.
+INFO  time: compiled sign-up-backend-dotty-it in 4.83s
+INFO  time: compiled sign-up-backend-dotty-test in 8.28s
+INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/45/j3hyd30s12s8dshrjtxqf0zr0000gp/T/metals318348521159690846/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+INFO  [info] Loading global plugins from /Users/richardmelvin/.sbt/1.0/plugins
+INFO  [info] Loading settings for project sign-up-backend-dotty-build from plugins.sbt,metals.sbt ...
+INFO  [info] Loading project definition from /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/project
+INFO  [info] Loading settings for project sign-up-backend-dotty from build.sbt ...
+INFO  [info] Set current project to sign-up-backend-dotty (in build file:/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/)
+INFO  [success] Generated .bloop/sign-up-backend-dotty-it.json
+INFO  [success] Generated .bloop/sign-up-backend-dotty.json
+INFO  [success] Generated .bloop/sign-up-backend-dotty-test.json
+INFO  [success] Total time: 1 s, completed 11-Mar-2020 19:45:54
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 9.88s
+INFO  disconnected: build server
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/45/j3hyd30s12s8dshrjtxqf0zr0000gp/T/bsp-launcher7598746397844256315/bsp.socket'...
+Waiting for the bsp connection to come up...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 3 projects from '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/.bloop/sign-up-backend-dotty-it.json'
+[0m[32m[D][0m Loading project from '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/.bloop/sign-up-backend-dotty-test.json'
+[0m[32m[D][0m Loading project from '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/.bloop/sign-up-backend-dotty.json'
+[0m[32m[D][0m Skipped configuration of SemanticDB in unsupported 0.22.0-RC1 projects
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/45/j3hyd30s12s8dshrjtxqf0zr0000gp/T/bsp-launcher7598746397844256315/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/45/j3hyd30s12s8dshrjtxqf0zr0000gp/T/bsp-launcher7598746397844256315/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/richardmelvin/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  Connected to Build server v1.4.0-RC1-69-693de22a
+INFO  time: indexed workspace in 0.52s
+WARN  unsupported Scala 0.22.0-RC1
+INFO  compiling sign-up-backend-dotty-it (8 scala sources)
+INFO  compiling sign-up-backend-dotty-test (10 scala sources)
+ERROR Bad symbolic reference. A signature
+refers to MethodRule/T in package org.junit.rules which is not available.
+It may be completely missing from the current classpath, or the version on
+the classpath might be incompatible with the version used when compiling the signature.
+ERROR Bad symbolic reference. A signature
+refers to TestRule/T in package org.junit.rules which is not available.
+It may be completely missing from the current classpath, or the version on
+the classpath might be incompatible with the version used when compiling the signature.
+ERROR Bad symbolic reference. A signature
+refers to MethodRule/T in package org.junit.rules which is not available.
+It may be completely missing from the current classpath, or the version on
+the classpath might be incompatible with the version used when compiling the signature.
+ERROR Bad symbolic reference. A signature
+refers to TestRule/T in package org.junit.rules which is not available.
+It may be completely missing from the current classpath, or the version on
+the classpath might be incompatible with the version used when compiling the signature.
+ERROR Bad symbolic reference. A signature
+refers to MethodRule/T in package org.junit.rules which is not available.
+It may be completely missing from the current classpath, or the version on
+the classpath might be incompatible with the version used when compiling the signature.
+INFO  time: compiled sign-up-backend-dotty-it in 3.85s
+INFO  time: compiled sign-up-backend-dotty-test in 7.18s
+INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/45/j3hyd30s12s8dshrjtxqf0zr0000gp/T/metals8831021788936408207/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+INFO  [info] Loading global plugins from /Users/richardmelvin/.sbt/1.0/plugins
+INFO  [info] Loading settings for project sign-up-backend-dotty-build from plugins.sbt,metals.sbt ...
+INFO  [info] Loading project definition from /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/project
+INFO  [info] Loading settings for project sign-up-backend-dotty from build.sbt ...
+INFO  [info] Set current project to sign-up-backend-dotty (in build file:/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/)
+INFO  [success] Generated .bloop/sign-up-backend-dotty-it.json
+INFO  [success] Generated .bloop/sign-up-backend-dotty.json
+INFO  [success] Generated .bloop/sign-up-backend-dotty-test.json
+INFO  [success] Total time: 1 s, completed 11-Mar-2020 19:46:52
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 9.87s
+INFO  disconnected: build server
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/45/j3hyd30s12s8dshrjtxqf0zr0000gp/T/bsp-launcher5141927629517315431/bsp.socket'...
+Waiting for the bsp connection to come up...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 3 projects from '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/.bloop/sign-up-backend-dotty.json'
+[0m[32m[D][0m Loading project from '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/.bloop/sign-up-backend-dotty-test.json'
+[0m[32m[D][0m Loading project from '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/.bloop/sign-up-backend-dotty-it.json'
+[0m[32m[D][0m Skipped configuration of SemanticDB in unsupported 0.22.0-RC1 projects
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/45/j3hyd30s12s8dshrjtxqf0zr0000gp/T/bsp-launcher5141927629517315431/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/45/j3hyd30s12s8dshrjtxqf0zr0000gp/T/bsp-launcher5141927629517315431/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/richardmelvin/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  Connected to Build server v1.4.0-RC1-69-693de22a
+INFO  time: indexed workspace in 0.63s
+WARN  unsupported Scala 0.22.0-RC1
+INFO  compiling sign-up-backend-dotty-it (8 scala sources)
+INFO  compiling sign-up-backend-dotty-test (10 scala sources)
+ERROR Bad symbolic reference. A signature
+refers to MethodRule/T in package org.junit.rules which is not available.
+It may be completely missing from the current classpath, or the version on
+the classpath might be incompatible with the version used when compiling the signature.
+ERROR Bad symbolic reference. A signature
+refers to TestRule/T in package org.junit.rules which is not available.
+It may be completely missing from the current classpath, or the version on
+the classpath might be incompatible with the version used when compiling the signature.
+ERROR Bad symbolic reference. A signature
+refers to MethodRule/T in package org.junit.rules which is not available.
+It may be completely missing from the current classpath, or the version on
+the classpath might be incompatible with the version used when compiling the signature.
+ERROR Bad symbolic reference. A signature
+refers to TestRule/T in package org.junit.rules which is not available.
+It may be completely missing from the current classpath, or the version on
+the classpath might be incompatible with the version used when compiling the signature.
+ERROR Bad symbolic reference. A signature
+refers to MethodRule/T in package org.junit.rules which is not available.
+It may be completely missing from the current classpath, or the version on
+the classpath might be incompatible with the version used when compiling the signature.
+INFO  time: compiled sign-up-backend-dotty-it in 3.01s
+INFO  time: compiled sign-up-backend-dotty-test in 6.39s
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+ERROR scalafmt: /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala:15: error: : expected but identifier found
+                                          )(using ExecutionContext) extends BaseController {
+                                                  ^
+INFO  compiling sign-up-backend-dotty (1 scala source)
+INFO  time: compiled sign-up-backend-dotty in 0.52s
+INFO  compiling sign-up-backend-dotty (1 scala source)
+INFO  time: compiled sign-up-backend-dotty in 0.41s
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+ERROR scalafmt: /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/CheckLoginDetailsController.scala:15: error: : expected but identifier found
+                                           )(using ExecutionContext) extends BaseController {
+                                                   ^
+INFO  compiling sign-up-backend-dotty (2 scala sources)
+INFO  time: compiled sign-up-backend-dotty in 0.51s
+INFO  compiling sign-up-backend-dotty (2 scala sources)
+INFO  time: compiled sign-up-backend-dotty in 0.57s
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+ERROR code navigation does not work for the file '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/CheckLoginDetailsController.scala' because the Scala version 0.22.0-RC1 is not supported. To fix this problem, change the Scala version to 2.13.1 or 2.12.10 or 2.11.12.
+ERROR code navigation does not work for the file '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/CheckLoginDetailsController.scala' because the Scala version 0.22.0-RC1 is not supported. To fix this problem, change the Scala version to 2.13.1 or 2.12.10 or 2.11.12.
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+ERROR scalafmt: /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/CheckLoginDetailsController.scala:15: error: : expected but identifier found
+                                           )(using ExecutionContext) extends BaseController {
+                                                   ^
+INFO  compiling sign-up-backend-dotty (2 scala sources)
+INFO  time: compiled sign-up-backend-dotty in 0.87s
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+ERROR scalafmt: /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/CheckLoginDetailsController.scala:15: error: : expected but identifier found
+                                           )(using ExecutionContext) extends BaseController {
+                                                   ^
+INFO  compiling sign-up-backend-dotty (2 scala sources)
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+INFO  time: compiled sign-up-backend-dotty in 0.95s
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+ERROR scalafmt: /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala:15: error: : expected but identifier found
+                                          )(using ExecutionContext) extends BaseController {
+                                                  ^
+INFO  compiling sign-up-backend-dotty (1 scala source)
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+INFO  time: compiled sign-up-backend-dotty in 2.03s
+INFO  compiling sign-up-backend-dotty (1 scala source)
+WARN  unsupported Scala 0.22.0-RC1
+INFO  time: compiled sign-up-backend-dotty in 0.64s
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+ERROR code navigation does not work for the file '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/CheckLoginDetailsController.scala' because the Scala version 0.22.0-RC1 is not supported. To fix this problem, change the Scala version to 2.13.1 or 2.12.10 or 2.11.12.
+ERROR code navigation does not work for the file '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/CheckLoginDetailsController.scala' because the Scala version 0.22.0-RC1 is not supported. To fix this problem, change the Scala version to 2.13.1 or 2.12.10 or 2.11.12.
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+ERROR code navigation does not work for the file '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/CheckLoginDetailsController.scala' because the Scala version 0.22.0-RC1 is not supported. To fix this problem, change the Scala version to 2.13.1 or 2.12.10 or 2.11.12.
+ERROR code navigation does not work for the file '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/CheckLoginDetailsController.scala' because the Scala version 0.22.0-RC1 is not supported. To fix this problem, change the Scala version to 2.13.1 or 2.12.10 or 2.11.12.
+WARN  unsupported Scala 0.22.0-RC1
+ERROR code navigation does not work for the file '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/CheckLoginDetailsController.scala' because the Scala version 0.22.0-RC1 is not supported. To fix this problem, change the Scala version to 2.13.1 or 2.12.10 or 2.11.12.
+ERROR code navigation does not work for the file '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/CheckLoginDetailsController.scala' because the Scala version 0.22.0-RC1 is not supported. To fix this problem, change the Scala version to 2.13.1 or 2.12.10 or 2.11.12.
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+ERROR scalafmt: /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/CheckLoginDetailsController.scala:15: error: : expected but identifier found
+                                           )(using ExecutionContext) extends BaseController {
+                                                   ^
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+ERROR scalafmt: /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala:15: error: : expected but identifier found
+                                          )(using ExecutionContext) extends BaseController {
+                                                  ^
+INFO  compiling sign-up-backend-dotty (1 scala source)
+INFO  time: compiled sign-up-backend-dotty in 0.43s
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+ERROR scalafmt: /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala:15: error: : expected but identifier found
+                                          )(using ExecutionContext) extends BaseController {
+                                                  ^
+INFO  compiling sign-up-backend-dotty (1 scala source)
+INFO  time: compiled sign-up-backend-dotty in 64ms
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+ERROR scalafmt: /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala:15: error: : expected but identifier found
+                                          )(using ExecutionContext) extends BaseController {
+                                                  ^
+INFO  compiling sign-up-backend-dotty (1 scala source)
+INFO  time: compiled sign-up-backend-dotty in 0.83s
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+ERROR scalafmt: /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala:15: error: : expected but identifier found
+                                          )(using ExecutionContext) extends BaseController {
+                                                  ^
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+INFO  compiling sign-up-backend-dotty (1 scala source)
+WARN  unsupported Scala 0.22.0-RC1
+INFO  time: compiled sign-up-backend-dotty in 0.48s
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+INFO  compiling sign-up-backend-dotty (1 scala source)
+INFO  time: compiled sign-up-backend-dotty in 0.88s
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+INFO  compiling sign-up-backend-dotty (1 scala source)
+INFO  time: compiled sign-up-backend-dotty in 70ms
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+INFO  compiling sign-up-backend-dotty (1 scala source)
+INFO  time: compiled sign-up-backend-dotty in 0.12s
+INFO  compiling sign-up-backend-dotty (1 scala source)
+INFO  time: compiled sign-up-backend-dotty in 0.11s
+INFO  compiling sign-up-backend-dotty (1 scala source)
+INFO  time: compiled sign-up-backend-dotty in 0.13s
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+INFO  compiling sign-up-backend-dotty (1 scala source)
+INFO  time: compiled sign-up-backend-dotty in 0.12s
+Mar 11, 2020 7:57:54 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+INFO  compiling sign-up-backend-dotty (1 scala source)
+INFO  time: compiled sign-up-backend-dotty in 0.11s
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+INFO  compiling sign-up-backend-dotty (1 scala source)
+INFO  time: compiled sign-up-backend-dotty in 0.3s
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1

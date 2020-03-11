@@ -1,0 +1,7 @@
+# Routes
+
+# Store User Details
+POST           /sign-up/store-user-details        controllers.StoreUserDetailsController.storeUserDetails()
+
+# Retrieve Login Details
+POST           /sign-up/check-login-details        controllers.CheckLoginDetailsController.checkLoginDetails()
