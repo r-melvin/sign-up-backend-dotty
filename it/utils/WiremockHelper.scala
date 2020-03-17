@@ -6,9 +6,8 @@ import com.github.tomakehurst.wiremock.client.WireMock._
 import com.github.tomakehurst.wiremock.core.WireMockConfiguration
 import com.github.tomakehurst.wiremock.core.WireMockConfiguration._
 import com.github.tomakehurst.wiremock.stubbing.StubMapping
-import org.scalatest.concurrent.{Eventually, IntegrationPatience}
 
-object WiremockHelper extends Eventually with IntegrationPatience {
+object WiremockHelper {
 
   val wiremockPort: Int = 11111
   val wiremockHost: String = "localhost"

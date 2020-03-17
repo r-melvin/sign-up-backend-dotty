@@ -8,6 +8,7 @@ import services.CheckLoginDetailsService
 import services.CheckLoginDetailsService.{LoginDetailsDoNotMatch, LoginDetailsMatch, LoginDetailsNotFound}
 
 import scala.concurrent.{ExecutionContext, Future}
+import scala.util.Try
 
 @Singleton
 class CheckLoginDetailsController @Inject()(checkLoginDetailsService: CheckLoginDetailsService,

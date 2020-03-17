@@ -1,10 +1,11 @@
 package models
 
-import org.scalatestplus.play.PlaySpec
+import org.scalatest.wordspec.AnyWordSpec
+import org.scalatest.matchers.must.Matchers
 import play.api.libs.json._
 import utils.TestConstants._
 
-class LoginDetailsModelSpec extends PlaySpec {
+class LoginDetailsModelSpec extends AnyWordSpec with Matchers {
 
   "LoginDetailsModel" should {
 

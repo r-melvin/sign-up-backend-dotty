@@ -1,20 +1,29 @@
 package models
 
 import play.api.libs.json._
+import play.api.libs.functional.syntax._
+import play.api.libs.json
 
 case class UserDetailsModel(firstName: String, lastName: String, loginDetails: LoginDetailsModel)
 
 object UserDetailsModel {
-  given OFormat[UserDetailsModel] = OFormat[UserDetailsModel](reader, writer)
 
-  val reader: Reads[UserDetailsModel] = (json: JsValue) => {
-    val firstName: String = (json \ "firstName").as[String]
-    val lastName: String = (json \ "lastName").as[String]
-    val email: String = (json \ "email").as[String]
-    val hashedPassword: String = (json \ "hashedPassword").as[String]
-
-    JsSuccess(UserDetailsModel(firstName, lastName, LoginDetailsModel(email, hashedPassword)))
-  }
+  val reader: Reads[UserDetailsModel] = (
+    (__ \ "firstName").read[String] and
+    (__ \ "lastName").read[String] and
+    (__ \ "email").read[String] and
+    (__ \ "hashedPassword").read[String]
+  )(
+    (firstName, lastName, email, hashedPassword) =>
+      UserDetailsModel(
+        firstName,
+        lastName,
+        LoginDetailsModel(
+          email,
+          hashedPassword
+        )
+      )
+  )
 
   val writer: OWrites[UserDetailsModel] = (userDetails: UserDetailsModel) => {
     Json.obj("firstName" -> userDetails.firstName,
@@ -23,5 +32,7 @@ object UserDetailsModel {
       "hashedPassword" -> userDetails.loginDetails.hashedPassword
     )
   }
+
+  given format as OFormat[UserDetailsModel] = OFormat[UserDetailsModel](reader, writer)
 
 }

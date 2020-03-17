@@ -1,7 +1,8 @@
 package services
 
 import models.{LoginDetailsModel, UserDetailsModel}
-import org.scalatestplus.play.PlaySpec
+import org.scalatest.matchers.must.Matchers
+import org.scalatest.wordspec.AnyWordSpec
 import play.api.mvc.Request
 import play.api.test.FakeRequest
 import play.api.test.Helpers._
@@ -12,7 +13,7 @@ import utils.TestConstants._
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
-class CheckLoginDetailsServiceSpec extends PlaySpec with MockAccountsRepository {
+class CheckLoginDetailsServiceSpec extends AnyWordSpec with Matchers with MockAccountsRepository {
 
   object TestCheckLoginDetailsService extends CheckLoginDetailsService(mockAccountsRepository)
 

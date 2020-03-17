@@ -1,7 +1,8 @@
 package controllers
 
-import akka.actor.ActorSystem
-import akka.stream.ActorMaterializer
+import akka.stream.Materializer
+import org.scalatest.matchers.must.Matchers
+import org.scalatest.wordspec.AnyWordSpec
 import play.api.libs.json.{JsValue, Json}
 import play.api.test.Helpers._
 import play.api.test._
@@ -18,9 +19,6 @@ class CheckLoginDetailsControllerSpec extends AnyWordSpec with Matchers with Moc
     mockCheckLoginDetailsService,
     stubControllerComponents()
   )
-
-  given ActorSystem()
-  given ActorMaterializer()
   
   val testPostRequest = FakeRequest(POST, "/sign-up/check-login-details").withBody(
     Json.toJson(testLoginDetails)
@@ -33,7 +31,7 @@ class CheckLoginDetailsControllerSpec extends AnyWordSpec with Matchers with Moc
 
         val result = TestCheckLoginDetailsController.checkLoginDetails()(testPostRequest)
 
-        status(result) shouldBe NO_CONTENT
+        status(result) mustBe NO_CONTENT
       }
     }
 
@@ -43,7 +41,7 @@ class CheckLoginDetailsControllerSpec extends AnyWordSpec with Matchers with Moc
 
         val result = TestCheckLoginDetailsController.checkLoginDetails()(testPostRequest)
 
-        status(result) shouldBe FORBIDDEN
+        status(result) mustBe FORBIDDEN
       }
     }
 
@@ -53,7 +51,7 @@ class CheckLoginDetailsControllerSpec extends AnyWordSpec with Matchers with Moc
 
         val result = TestCheckLoginDetailsController.checkLoginDetails()(testPostRequest)
 
-        status(result) shouldBe NOT_FOUND
+        status(result) mustBe NOT_FOUND
       }
     }
 
@@ -63,7 +61,7 @@ class CheckLoginDetailsControllerSpec extends AnyWordSpec with Matchers with Moc
 
         val result = TestCheckLoginDetailsController.checkLoginDetails()(testPostRequest)
 
-        status(result) shouldBe INTERNAL_SERVER_ERROR
+        status(result) mustBe INTERNAL_SERVER_ERROR
       }
     }
 
@@ -73,7 +71,7 @@ class CheckLoginDetailsControllerSpec extends AnyWordSpec with Matchers with Moc
 
         val result = TestCheckLoginDetailsController.checkLoginDetails()(testPostRequest)
 
-        status(result) shouldBe BAD_REQUEST
+        status(result) mustBe BAD_REQUEST
       }
     }
   }

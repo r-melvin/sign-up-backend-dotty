@@ -1,6 +1,8 @@
 package services
 
-import org.scalatestplus.play.PlaySpec
+import org.scalatest.matchers.must.Matchers
+import org.scalatest.wordspec.AnyWordSpec
+import org.mockito.Mockito.mock
 import play.api.mvc.Request
 import play.api.test.FakeRequest
 import play.api.test.Helpers._
@@ -12,7 +14,7 @@ import utils.TestConstants._
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
-class StoreUserDetailsServiceSpec extends PlaySpec with MockAccountsRepository {
+class StoreUserDetailsServiceSpec extends AnyWordSpec with Matchers with MockAccountsRepository {
 
   object TestStoreUserDetailsService extends StoreUserDetailsService(mockAccountsRepository)
 
@@ -23,7 +25,7 @@ class StoreUserDetailsServiceSpec extends PlaySpec with MockAccountsRepository {
 
     "return UserDetailsStored" when {
       "the repository has successful stored the details in mongo" in {
-        mockInsert(email, testUserDetails)(Future.successful(mock[UpdateWriteResult]))
+        mockInsert(email, testUserDetails)(Future.successful(mock(classOf[UpdateWriteResult])))
         val result = TestStoreUserDetailsService.storeUserDetails(testUserDetails)
 
         await(result) mustBe Right(UserDetailsStored)

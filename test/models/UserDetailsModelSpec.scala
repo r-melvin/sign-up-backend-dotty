@@ -1,21 +1,19 @@
 package models
 
-import org.scalatestplus.play.PlaySpec
+import org.scalatest.matchers.must.Matchers
+import org.scalatest.wordspec.AnyWordSpec
 import play.api.libs.json._
 import utils.TestConstants._
 
-class UserDetailsModelSpec extends PlaySpec {
+class UserDetailsModelSpec extends AnyWordSpec with Matchers {
 
   "UserDetailsModel" should {
 
     val testJson = Json.obj(
       "firstName" -> testFirstName,
       "lastName" -> testLastName,
-      "loginDetails" ->
-        Json.obj(
-          "email" -> testEmail,
-          "hashedPassword" -> testPassword
-        )
+      "email" -> testEmail,
+      "hashedPassword" -> testPassword
     )
 
     "contain 3 fields" in {
