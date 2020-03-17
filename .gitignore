@@ -6,7 +6,9 @@ target
 /.project
 /.settings
 /RUNNING_PID
+.bloop
 /.bloop
+.metals
 /.metals
 .DS_Store
 **/*.DS_Store
