@@ -2,7 +2,8 @@ package controllers
 
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
-import org.scalatestplus.play.PlaySpec
+import org.scalatest.matchers.must.Matchers
+import org.scalatest.wordspec.AnyWordSpec
 import play.api.libs.json.{JsValue, Json}
 import play.api.test.Helpers._
 import play.api.test._
@@ -13,18 +14,16 @@ import utils.TestConstants._
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
-class StoreUserDetailsControllerSpec extends PlaySpec with MockStoreUserDetailsService {
+class StoreUserDetailsControllerSpec extends AnyWordSpec with Matchers with MockStoreUserDetailsService {
 
   object TestStoreUserDetailsController extends StoreUserDetailsController(
     mockStoreUserDetailsService,
     stubControllerComponents()
   )
 
-  implicit val system: ActorSystem = ActorSystem()
-  implicit val materializer: ActorMaterializer = ActorMaterializer()
-  implicit val testPostRequest: FakeRequest[JsValue] = FakeRequest(POST, "/sign-up/store-user-details").withBody(Json.toJson(testUserDetails))
+  given testPostRequest: FakeRequest[JsValue] = FakeRequest(POST, "/sign-up/store-user-details").withBody(Json.toJson(testUserDetails))
 
-  "StoreUserDetailsController POST" should {
+  "StoreUserDetailsController" should {
     "return No Content" when {
       "StoreUserDetailsService is successful" in {
         mockStoreUserDetails(testUserDetails)(Future.successful(Right(UserDetailsStored)))

@@ -16,11 +16,13 @@
             
         ],
         "classpath": [
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.13/2.8.1/play-ahc-ws_2.13-2.8.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-akkastream_2.13/0.20.3/reactivemongo-akkastream_2.13-0.20.3.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws_2.13/2.8.1/play-ws_2.13-2.8.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar",
@@ -35,12 +37,14 @@
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson-api_2.13/0.20.3/reactivemongo-bson-api_2.13-0.20.3.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.2/jackson-module-paranamer-2.10.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.3/akka-stream_2.13-2.6.3.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.13/2.1.2/play-ahc-ws-standalone_2.13-2.1.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-play-json_2.13/0.20.3-play28/reactivemongo-play-json_2.13-0.20.3-play28.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.1/play_2.13-2.8.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.11/akka-http-core_2.13-10.1.11.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.1/play-streams_2.13-2.8.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.2/jackson-module-parameter-names-2.10.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.13/2.1.2/play-ws-standalone-xml_2.13-2.1.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.1/filters-helpers_2.13-2.8.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar",
@@ -49,6 +53,8 @@
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.2/jackson-datatype-jdk8-2.10.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson-compat_2.13/0.20.3/reactivemongo-bson-compat_2.13-0.20.3.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.13/2.1.2/play-ws-standalone_2.13-2.1.2.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.1.2/shaded-asynchttpclient-2.1.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.14/commons-codec-1.14.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.1/play-server_2.13-2.8.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.10.0/protobuf-java-3.10.0.jar",
@@ -58,6 +64,7 @@
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.3/akka-slf4j_2.13-2.6.3.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/28.1-jre/guava-28.1-jre.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/2.1.2/shaded-oauth-2.1.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/play2-reactivemongo_2.13/0.20.3-play28/play2-reactivemongo_2.13-0.20.3-play28.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-shaded/0.20.3/reactivemongo-shaded-0.20.3.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar",
@@ -67,18 +74,21 @@
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.29/jcl-over-slf4j-1.7.29.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.2/jackson-module-scala_2.13-2.10.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.3/akka-serialization-jackson_2.13-2.6.3.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.13/2.0.0/cachecontrol_2.13-2.0.0.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.1/ssl-config-core_2.13-0.4.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.2/jackson-databind-2.10.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.1/play-logback_2.13-2.8.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.2.2/guice-assistedinject-4.2.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.1/play-functional_2.13-2.8.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.1/build-link-2.8.1.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/cache/cache-api/1.1.1/cache-api-1.1.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.2/jackson-dataformat-cbor-2.10.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.22/0.22.0-RC1/dotty-library_0.22-0.22.0-RC1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.2/jackson-datatype-jsr310-2.10.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.13/2.1.2/play-ws-standalone-json_2.13-2.1.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.3/akka-actor_2.13-2.6.3.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.3/akka-actor-typed_2.13-2.6.3.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-core_2.13/0.20.3/reactivemongo-core_2.13-0.20.3.jar",
@@ -195,6 +205,23 @@
         "resolution": {
             "modules": [
                 {
+                    "organization": "com.typesafe.play",
+                    "name": "play-ahc-ws_2.13",
+                    "version": "2.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-ahc-ws_2.13",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.13/2.8.1/play-ahc-ws_2.13-2.8.1.jar"
+                        },
+                        {
+                            "name": "play-ahc-ws_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.13/2.8.1/play-ahc-ws_2.13-2.8.1-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "com.google.errorprone",
                     "name": "error_prone_annotations",
                     "version": "2.3.2",
@@ -293,6 +320,23 @@
                             "name": "config",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-ws_2.13",
+                    "version": "2.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-ws_2.13",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws_2.13/2.8.1/play-ws_2.13-2.8.1.jar"
+                        },
+                        {
+                            "name": "play-ws_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws_2.13/2.8.1/play-ws_2.13-2.8.1-sources.jar"
                         }
                     ]
                 },
@@ -535,6 +579,23 @@
                     ]
                 },
                 {
+                    "organization": "com.typesafe.play",
+                    "name": "play-ahc-ws-standalone_2.13",
+                    "version": "2.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-ahc-ws-standalone_2.13",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.13/2.1.2/play-ahc-ws-standalone_2.13-2.1.2.jar"
+                        },
+                        {
+                            "name": "play-ahc-ws-standalone_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.13/2.1.2/play-ahc-ws-standalone_2.13-2.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "org.reactivemongo",
                     "name": "reactivemongo-play-json_2.13",
                     "version": "0.20.3-play28",
@@ -633,6 +694,23 @@
                             "name": "logback-classic",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-ws-standalone-xml_2.13",
+                    "version": "2.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-ws-standalone-xml_2.13",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.13/2.1.2/play-ws-standalone-xml_2.13-2.1.2.jar"
+                        },
+                        {
+                            "name": "play-ws-standalone-xml_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.13/2.1.2/play-ws-standalone-xml_2.13-2.1.2-sources.jar"
                         }
                     ]
                 },
@@ -769,6 +847,40 @@
                 },
                 {
                     "organization": "com.typesafe.play",
+                    "name": "play-ws-standalone_2.13",
+                    "version": "2.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-ws-standalone_2.13",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.13/2.1.2/play-ws-standalone_2.13-2.1.2.jar"
+                        },
+                        {
+                            "name": "play-ws-standalone_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.13/2.1.2/play-ws-standalone_2.13-2.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "shaded-asynchttpclient",
+                    "version": "2.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "shaded-asynchttpclient",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.1.2/shaded-asynchttpclient-2.1.2.jar"
+                        },
+                        {
+                            "name": "shaded-asynchttpclient",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.1.2/shaded-asynchttpclient-2.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
                     "name": "play-server_2.13",
                     "version": "2.8.1",
                     "configurations": "default",
@@ -900,6 +1012,23 @@
                             "name": "guava",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/28.1-jre/guava-28.1-jre-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "shaded-oauth",
+                    "version": "2.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "shaded-oauth",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/2.1.2/shaded-oauth-2.1.2.jar"
+                        },
+                        {
+                            "name": "shaded-oauth",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/2.1.2/shaded-oauth-2.1.2-sources.jar"
                         }
                     ]
                 },
@@ -1057,6 +1186,23 @@
                     ]
                 },
                 {
+                    "organization": "com.typesafe.play",
+                    "name": "cachecontrol_2.13",
+                    "version": "2.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cachecontrol_2.13",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.13/2.0.0/cachecontrol_2.13-2.0.0.jar"
+                        },
+                        {
+                            "name": "cachecontrol_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.13/2.0.0/cachecontrol_2.13-2.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "com.typesafe",
                     "name": "ssl-config-core_2.13",
                     "version": "0.4.1",
@@ -1159,6 +1305,23 @@
                     ]
                 },
                 {
+                    "organization": "javax.cache",
+                    "name": "cache-api",
+                    "version": "1.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cache-api",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/cache/cache-api/1.1.1/cache-api-1.1.1.jar"
+                        },
+                        {
+                            "name": "cache-api",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/cache/cache-api/1.1.1/cache-api-1.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "com.fasterxml.jackson.dataformat",
                     "name": "jackson-dataformat-cbor",
                     "version": "2.10.2",
@@ -1257,6 +1420,23 @@
                             "name": "reactive-streams",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-ws-standalone-json_2.13",
+                    "version": "2.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-ws-standalone-json_2.13",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.13/2.1.2/play-ws-standalone-json_2.13-2.1.2.jar"
+                        },
+                        {
+                            "name": "play-ws-standalone-json_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.13/2.1.2/play-ws-standalone-json_2.13-2.1.2-sources.jar"
                         }
                     ]
                 },

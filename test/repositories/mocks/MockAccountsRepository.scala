@@ -1,7 +1,8 @@
 package repositories.mocks
 
-import org.scalamock.handlers.{CallHandler2, CallHandler3, CallHandler4}
-import org.scalamock.scalatest.MockFactory
+import org.mockito.ArgumentMatchers
+import org.mockito.Mockito._
+import org.mockito.stubbing.OngoingStubbing
 import org.scalatest.Suite
 import play.api.libs.json.OFormat
 import reactivemongo.api.commands.WriteResult
@@ -9,30 +10,33 @@ import repositories.AccountsRepository
 
 import scala.concurrent.Future
 
-trait MockAccountsRepository extends MockFactory {
+trait MockAccountsRepository {
   self: Suite =>
 
-  val mockAccountsRepository: AccountsRepository = mock[AccountsRepository]
+  val mockAccountsRepository: AccountsRepository = mock(classOf[AccountsRepository])
 
-  def mockInsert[A](id: String, value: A)
-                   (response: Future[WriteResult])
-                   (implicit format: OFormat[A]): CallHandler3[String, A, OFormat[A], Future[WriteResult]] =
-    (mockAccountsRepository.insert(_: String, _: A)(_: OFormat[A]))
-      .expects(id, value, format)
-      .returning(response)
+  def mockInsert[A](id: String, value: A)(response: Future[WriteResult])(given format: OFormat[A]): OngoingStubbing[Future[WriteResult]] =
+    when(
+      mockAccountsRepository.insert(
+        ArgumentMatchers.eq(id),
+        ArgumentMatchers.eq(value)
+      )(ArgumentMatchers.eq(format))
+    ) thenReturn response
 
-  def mockUpdate[A](id: String, key: String, value: A)
-                   (response: Future[WriteResult])
-                   (implicit format: OFormat[A]): CallHandler4[String, String, A, OFormat[A], Future[WriteResult]] =
-    (mockAccountsRepository.update(_: String, _: String, _: A)(_: OFormat[A]))
-      .expects(id, key, value, format)
-      .returning(response)
+  def mockUpdate[A](id: String, key: String, value: A)(response: Future[WriteResult])(given format: OFormat[A]): OngoingStubbing[Future[WriteResult]] =
+    when(
+      mockAccountsRepository.update(
+        ArgumentMatchers.eq(id),
+        ArgumentMatchers.eq(key),
+        ArgumentMatchers.eq(value)
+      )(ArgumentMatchers.eq(format))
+    ) thenReturn response
 
-  def mockFindById[A](id: String)
-                     (response: Future[Option[A]])
-                     (implicit format: OFormat[A]): CallHandler2[String, OFormat[A], Future[Option[A]]] =
-    (mockAccountsRepository.findById(_: String)(_: OFormat[A]))
-      .expects(id, format)
-      .returning(response)
+  def mockFindById[A](id: String)(response: Future[Option[A]])(given format: OFormat[A]): OngoingStubbing[Future[Option[A]]] =
+    when(
+      mockAccountsRepository.findById(
+        ArgumentMatchers.eq(id)
+      )(ArgumentMatchers.eq(format))
+    ) thenReturn response
 
 }

@@ -1,13 +1,14 @@
 package repositories
 
-import models.{LoginDetailsModel, UserDetailsModel}
-import play.api.test.Helpers._
+import models._
+import org.scalatest.matchers.must.Matchers
+import org.scalatest.wordspec.AnyWordSpec
 import utils.IntegrationTestConstants._
-import utils.{ComponentSpecBase, TestAccountsRepository}
+import utils.{ComponentSpecBase, CustomMatchers, TestAccountsRepository}
 
 import scala.concurrent.ExecutionContext.Implicits.global
 
-class AccountsRepositoryISpec extends ComponentSpecBase with TestAccountsRepository {
+class AccountsRepositoryISpec extends AnyWordSpec with Matchers with CustomMatchers with ComponentSpecBase with TestAccountsRepository {
 
   val email: String = testUserDetails.loginDetails.email
 
@@ -74,7 +75,10 @@ class AccountsRepositoryISpec extends ComponentSpecBase with TestAccountsReposit
         postDelete <- accountsRepo.findById[UserDetailsModel](email)
       } yield (inserted, postDelete)
 
-      val (inserted, postDelete) = await(res)
+      val awaitedResponse = await(res)
+
+      val inserted = awaitedResponse._1
+      val postDelete = awaitedResponse._2
 
       inserted mustBe Some(testUserDetails)
       postDelete mustBe None

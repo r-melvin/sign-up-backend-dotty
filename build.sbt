@@ -19,8 +19,7 @@ lazy val microservice = Project(appName, file("."))
   .settings(
     scalaVersion := dottyVersion,
     libraryDependencies ++= AppDependencies.compile ++ AppDependencies.test,
-    libraryDependencies := libraryDependencies.value
-      .map(_.withDottyCompat(dottyVersion)),
+    libraryDependencies := libraryDependencies.value.map(_.withDottyCompat(dottyVersion)),
     scoverageSettings,
     PlayKeys.playDefaultPort := 9001
   )
@@ -31,9 +30,7 @@ javaOptions in Test += "-Dlogger.resource=logback.xml"
 parallelExecution in Test := true
 
 Keys.fork in IntegrationTest := true
-unmanagedSourceDirectories in IntegrationTest := (baseDirectory in IntegrationTest)(
-  base => Seq(base / "it")
-).value
+unmanagedSourceDirectories in IntegrationTest := (baseDirectory in IntegrationTest)(base => Seq(base / "it")).value
 javaOptions in IntegrationTest += "-Dlogger.resource=logback.xml"
 parallelExecution in IntegrationTest := false
 
