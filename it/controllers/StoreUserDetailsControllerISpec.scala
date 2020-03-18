@@ -1,14 +1,12 @@
 package controllers
 
 import models.UserDetailsModel
-import models.UserDetailsModel._
-import org.scalatest.matchers.must.Matchers
-import org.scalatest.wordspec.AnyWordSpec
 import play.api.libs.json.Json
+import play.api.test.Helpers._
+import utils.ComponentSpecBase
 import utils.IntegrationTestConstants.testUserDetails
-import utils.{ComponentSpecBase, CustomMatchers, TestAccountsRepository}
 
-class StoreUserDetailsControllerISpec extends AnyWordSpec with Matchers with CustomMatchers with ComponentSpecBase with TestAccountsRepository {
+class StoreUserDetailsControllerISpec extends ComponentSpecBase {
 
   "storeUserDetails" should {
     "store the supplied user details in mongo" in {

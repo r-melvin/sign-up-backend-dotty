@@ -1,14 +1,13 @@
 package repositories
 
 import models._
-import org.scalatest.matchers.must.Matchers
-import org.scalatest.wordspec.AnyWordSpec
+import play.api.test.Helpers._
+import utils.ComponentSpecBase
 import utils.IntegrationTestConstants._
-import utils.{ComponentSpecBase, CustomMatchers, TestAccountsRepository}
 
 import scala.concurrent.ExecutionContext.Implicits.global
 
-class AccountsRepositoryISpec extends AnyWordSpec with Matchers with CustomMatchers with ComponentSpecBase with TestAccountsRepository {
+class AccountsRepositoryISpec extends ComponentSpecBase {
 
   val email: String = testUserDetails.loginDetails.email
 

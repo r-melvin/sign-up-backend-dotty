@@ -3701,3 +3701,98 @@ WARN  unsupported Scala 0.22.0-RC1
 WARN  unsupported Scala 0.22.0-RC1
 WARN  unsupported Scala 0.22.0-RC1
 WARN  unsupported Scala 0.22.0-RC1
+WARN  no build target for: /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/project/AppDependencies.scala
+INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/45/j3hyd30s12s8dshrjtxqf0zr0000gp/T/metals3742662977498250228/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+INFO  compiling sign-up-backend-dotty (11 scala sources and 1 java source)
+INFO  [info] Loading global plugins from /Users/richardmelvin/.sbt/1.0/plugins
+INFO  [info] Loading settings for project sign-up-backend-dotty-build from plugins.sbt,metals.sbt ...
+INFO  [info] Loading project definition from /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/project
+INFO  [info] Loading settings for project sign-up-backend-dotty from build.sbt ...
+INFO  [info] Set current project to sign-up-backend-dotty (in build file:/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/)
+INFO  [success] Generated .bloop/sign-up-backend-dotty-test.json
+INFO  [success] Generated .bloop/sign-up-backend-dotty-it.json
+INFO  [success] Generated .bloop/sign-up-backend-dotty.json
+INFO  [success] Total time: 2 s, completed 17-Mar-2020 11:00:13
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 20s
+INFO  disconnected: build server
+ERROR timeout: build server 'bloop' during shutdown
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/45/j3hyd30s12s8dshrjtxqf0zr0000gp/T/bsp-launcher8644246315969174848/bsp.socket'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 3 projects from '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/.bloop/sign-up-backend-dotty.json'
+[0m[32m[D][0m Loading project from '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/.bloop/sign-up-backend-dotty-it.json'
+[0m[32m[D][0m Loading project from '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/.bloop/sign-up-backend-dotty-test.json'
+[0m[32m[D][0m Skipped configuration of SemanticDB in unsupported 0.22.0-RC1 projects
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/45/j3hyd30s12s8dshrjtxqf0zr0000gp/T/bsp-launcher8644246315969174848/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/45/j3hyd30s12s8dshrjtxqf0zr0000gp/T/bsp-launcher8644246315969174848/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/richardmelvin/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  time: connected to build server in 1.73s
+INFO  Connected to Build server v1.4.0-RC1-69-693de22a
+INFO  exception occurred while compiling /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/CheckLoginDetailsController.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/models/LoginDetailsModel.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/models/UserDetailsModel.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/repositories/AccountsRepository.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/services/CheckLoginDetailsService.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/services/StoreUserDetailsService.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/controllers/ReverseRoutes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/router/Routes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/router/RoutesPrefix.scala
+ERROR Unexpected error when compiling sign-up-backend-dotty: 'NoDenotation.owner'
+INFO  time: indexed workspace in 4.48s
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+INFO  compiling sign-up-backend-dotty (11 scala sources and 1 java source)
+INFO  exception occurred while compiling /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/CheckLoginDetailsController.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/models/LoginDetailsModel.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/models/UserDetailsModel.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/repositories/AccountsRepository.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/services/CheckLoginDetailsService.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/services/StoreUserDetailsService.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/controllers/ReverseRoutes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/router/Routes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/router/RoutesPrefix.scala
+INFO  time: compiled sign-up-backend-dotty in 11s
+ERROR Unexpected error when compiling sign-up-backend-dotty: 'NoDenotation.owner'
+WARN  no build target for: /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/project/AppDependencies.scala
+WARN  no build target for: /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/project/AppDependencies.scala
+INFO  skipping build import with status 'Requested'
+WARN  no build target for: /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/project/AppDependencies.scala
+WARN  no build target for: /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/project/AppDependencies.scala
+INFO  compiling sign-up-backend-dotty (11 scala sources and 1 java source)
+INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/45/j3hyd30s12s8dshrjtxqf0zr0000gp/T/metals5506579331759780350/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+INFO  exception occurred while compiling /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/CheckLoginDetailsController.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/models/LoginDetailsModel.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/models/UserDetailsModel.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/repositories/AccountsRepository.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/services/CheckLoginDetailsService.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/services/StoreUserDetailsService.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/controllers/ReverseRoutes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/router/Routes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/router/RoutesPrefix.scala
+INFO  time: compiled sign-up-backend-dotty in 27s
+ERROR Unexpected error when compiling sign-up-backend-dotty: 'NoDenotation.owner'
+INFO  [info] Loading global plugins from /Users/richardmelvin/.sbt/1.0/plugins
+INFO  [info] Loading settings for project sign-up-backend-dotty-build from plugins.sbt,metals.sbt ...
+INFO  [info] Loading project definition from /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/project
+INFO  [info] Loading settings for project sign-up-backend-dotty from build.sbt ...
+INFO  [info] Set current project to sign-up-backend-dotty (in build file:/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/)
+INFO  [success] Generated .bloop/sign-up-backend-dotty.json
+INFO  [success] Generated .bloop/sign-up-backend-dotty-test.json
+INFO  [success] Generated .bloop/sign-up-backend-dotty-it.json
+INFO  [success] Total time: 1 s, completed 17-Mar-2020 11:35:04
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 23s
+INFO  disconnected: build server
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/45/j3hyd30s12s8dshrjtxqf0zr0000gp/T/bsp-launcher8483601282442909994/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/.bloop/sign-up-backend-dotty-test.json'
+[0m[32m[D][0m Loading project from '/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/.bloop/sign-up-backend-dotty-it.json'
+[0m[32m[D][0m Skipped configuration of SemanticDB in unsupported 0.22.0-RC1 projects
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/45/j3hyd30s12s8dshrjtxqf0zr0000gp/T/bsp-launcher8483601282442909994/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/45/j3hyd30s12s8dshrjtxqf0zr0000gp/T/bsp-launcher8483601282442909994/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/richardmelvin/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  time: connected to build server in 0.11s
+INFO  Connected to Build server v1.4.0-RC1-69-693de22a
+INFO  time: indexed workspace in 4s
+WARN  unsupported Scala 0.22.0-RC1
+WARN  unsupported Scala 0.22.0-RC1
+INFO  compiling sign-up-backend-dotty (11 scala sources and 1 java source)
+INFO  Deduplicating compilation of sign-up-backend-dotty from bsp client 'Metals 0.8.1' (since 7m 36.009s)
+INFO  compiling sign-up-backend-dotty (11 scala sources and 1 java source)
+INFO  exception occurred while compiling /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/CheckLoginDetailsController.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/models/LoginDetailsModel.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/models/UserDetailsModel.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/repositories/AccountsRepository.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/services/CheckLoginDetailsService.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/services/StoreUserDetailsService.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/controllers/ReverseRoutes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/router/Routes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/router/RoutesPrefix.scala
+INFO  exception occurred while compiling /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/CheckLoginDetailsController.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/controllers/StoreUserDetailsController.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/models/LoginDetailsModel.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/models/UserDetailsModel.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/repositories/AccountsRepository.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/services/CheckLoginDetailsService.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/app/services/StoreUserDetailsService.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/controllers/ReverseRoutes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/router/Routes.scala, /Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/target/scala-0.22/routes/main/router/RoutesPrefix.scala
+INFO  time: compiled sign-up-backend-dotty in 38s
+ERROR Unexpected error when compiling sign-up-backend-dotty: 'NoDenotation.owner'
+ERROR Unexpected error when compiling sign-up-backend-dotty: 'NoDenotation.owner'
+INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...

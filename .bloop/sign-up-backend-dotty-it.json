@@ -13,18 +13,27 @@
         ],
         "classpath": [
             "/Users/richardmelvin/PersonalProjects/sign-up-backend-dotty/.bloop/sign-up-backend-dotty/scala-0.22/classes",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.36.0/htmlunit-core-js-2.36.0.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.13/2.8.1/play-ahc-ws_2.13-2.8.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.4.20.v20190813/jetty-security-9.4.20.v20190813.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-alpn-client/9.4.20.v20190813/jetty-alpn-client-9.4.20.v20190813.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-akkastream_2.13/0.20.3/reactivemongo-akkastream_2.13-0.20.3.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatestplus/play/scalatestplus-play_2.13/5.0.0/scalatestplus-play_2.13-5.0.0.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/tomakehurst/wiremock-jre8/2.26.3/wiremock-jre8-2.26.3.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-alpn-conscrypt-client/9.4.20.v20190813/jetty-alpn-conscrypt-client-9.4.20.v20190813.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.10.5/byte-buddy-1.10.5.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws_2.13/2.8.1/play-ws_2.13-2.8.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar",
@@ -32,38 +41,53 @@
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.14/commons-codec-1.14.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.20.v20190813/websocket-api-9.4.20.v20190813.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.36.0/htmlunit-2.36.0.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.9/httpmime-4.5.9.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.1/play-akka-http-server_2.13-2.8.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.1/play-exceptions-2.8.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.0/twirl-api_2.13-1.5.0.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.20.v20190813/jetty-client-9.4.20.v20190813.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.7/commons-text-1.7.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dnsjava/dnsjava/2.1.9/dnsjava-2.1.9.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/codeborne/phantomjsdriver/1.4.4/phantomjsdriver-1.4.4.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_0.22/3.3.0-SNAP2/scalatest-matchers-core_0.22-3.3.0-SNAP2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.20.v20190813/websocket-common-9.4.20.v20190813.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/http2/http2-server/9.4.20.v20190813/http2-server-9.4.20.v20190813.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.2/jackson-annotations-2.10.2.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-cssparser/1.5.0/htmlunit-cssparser-1.5.0.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson-api_2.13/0.20.3/reactivemongo-bson-api_2.13-0.20.3.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.2/jackson-module-paranamer-2.10.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/xmlunit/xmlunit-placeholders/2.6.2/xmlunit-placeholders-2.6.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.3/akka-stream_2.13-2.6.3.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.13/2.1.2/play-ahc-ws-standalone_2.13-2.1.2.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/neko-htmlunit/2.36.0/neko-htmlunit-2.36.0.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-play-json_2.13/0.20.3-play28/reactivemongo-play-json_2.13-0.20.3-play28.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.1/play_2.13-2.8.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.11/akka-http-core_2.13-10.1.11.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.1/play-streams_2.13-2.8.1.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.2/jackson-module-parameter-names-2.10.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.13/2.1.2/play-ws-standalone-xml_2.13-2.1.2.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-net/commons-net/3.6/commons-net-3.6.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-mustmatchers_0.22/3.3.0-SNAP2/scalatest-mustmatchers_0.22-3.3.0-SNAP2.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.1/filters-helpers_2.13-2.8.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar",
-            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/jknack/handlebars-helpers/4.1.2/handlebars-helpers-4.1.2.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/3.7.1/fluentlenium-core-3.7.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.3/akka-protobuf-v3_2.13-2.6.3.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar",
@@ -73,9 +97,14 @@
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.4.20.v20190813/jetty-server-9.4.20.v20190813.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.13/2.1.2/play-ws-standalone_2.13-2.1.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-core_0.22/3.3.0-SNAP2/scalatest-core_0.22-3.3.0-SNAP2.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/htmlunit-driver/2.36.0/htmlunit-driver-2.36.0.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.3.0-SNAP2/scalatest-compatible-3.3.0-SNAP2.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.20.v20190813/jetty-servlet-9.4.20.v20190813.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.1.2/shaded-asynchttpclient-2.1.2.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.1/play-server_2.13-2.8.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-alpn-server/9.4.20.v20190813/jetty-alpn-server-9.4.20.v20190813.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.10.0/protobuf-java-3.10.0.jar",
@@ -86,16 +115,23 @@
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.3/akka-slf4j_2.13-2.6.3.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/28.1-jre/guava-28.1-jre.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/2.1.2/shaded-oauth-2.1.2.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/http2/http2-hpack/9.4.20.v20190813/http2-hpack-9.4.20.v20190813.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/play2-reactivemongo_2.13/0.20.3-play28/play2-reactivemongo_2.13-0.20.3-play28.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/flipkart/zjsonpatch/zjsonpatch/0.4.4/zjsonpatch-0.4.4.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_0.22/3.3.0-SNAP2/scalactic_0.22-3.3.0-SNAP2.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-shaded/0.20.3/reactivemongo-shaded-0.20.3.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.4.20.v20190813/jetty-xml-9.4.20.v20190813.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/4.2.2/guice-4.2.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.20.v20190813/jetty-util-9.4.20.v20190813.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.20.v20190813/websocket-client-9.4.20.v20190813.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/xmlunit/xmlunit-legacy/2.6.2/xmlunit-legacy-2.6.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo_2.13/0.20.3/reactivemongo_2.13-0.20.3.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson_2.13/0.20.3/reactivemongo-bson_2.13-0.20.3.jar",
@@ -103,13 +139,17 @@
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.29/jcl-over-slf4j-1.7.29.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.2/jackson-module-scala_2.13-2.10.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.3/akka-serialization-jackson_2.13-2.6.3.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.13/2.0.0/cachecontrol_2.13-2.0.0.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/brotli/dec/0.1.2/dec-0.1.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/javacrumbs/json-unit/json-unit-core/2.12.0/json-unit-core-2.12.0.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.1/ssl-config-core_2.13-0.4.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.2/jackson-databind-2.10.2.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-test_2.13/2.8.1/play-test_2.13-2.8.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.1/play-logback_2.13-2.8.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/minidev/json-smart/2.3/json-smart-2.3.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_0.22/3.3.0-SNAP2/scalatest-wordspec_0.22-3.3.0-SNAP2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/http2/http2-common/9.4.20.v20190813/http2-common-9.4.20.v20190813.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar",
@@ -117,6 +157,7 @@
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.1/play-functional_2.13-2.8.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.1/build-link-2.8.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/cache/cache-api/1.1.1/cache-api-1.1.1.jar",
+            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/atteo/classindex/classindex/3.4/classindex-3.4.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.2/jackson-dataformat-cbor-2.10.2.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.22/0.22.0-RC1/dotty-library_0.22-0.22.0-RC1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm/7.0/asm-7.0.jar",
@@ -136,7 +177,6 @@
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.1/play-json_2.13-2.8.1.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.13.0/log4j-api-2.13.0.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.11/akka-parsing_2.13-10.1.11.jar",
-            "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
             "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlets/9.4.20.v20190813/jetty-servlets-9.4.20.v20190813.jar",
@@ -249,6 +289,72 @@
         "resolution": {
             "modules": [
                 {
+                    "organization": "net.sourceforge.htmlunit",
+                    "name": "htmlunit-core-js",
+                    "version": "2.36.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "htmlunit-core-js",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.36.0/htmlunit-core-js-2.36.0.jar"
+                        },
+                        {
+                            "name": "htmlunit-core-js",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.36.0/htmlunit-core-js-2.36.0-sources.jar"
+                        },
+                        {
+                            "name": "htmlunit-core-js",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.36.0/htmlunit-core-js-2.36.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "xerces",
+                    "name": "xercesImpl",
+                    "version": "2.12.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "xercesImpl",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0.jar"
+                        },
+                        {
+                            "name": "xercesImpl",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0-sources.jar"
+                        },
+                        {
+                            "name": "xercesImpl",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-sbt",
+                    "name": "test-interface",
+                    "version": "1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "test-interface",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"
+                        },
+                        {
+                            "name": "test-interface",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"
+                        },
+                        {
+                            "name": "test-interface",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "com.typesafe.play",
                     "name": "play-ahc-ws_2.13",
                     "version": "2.8.1",
@@ -262,6 +368,11 @@
                             "name": "play-ahc-ws_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.13/2.8.1/play-ahc-ws_2.13-2.8.1-sources.jar"
+                        },
+                        {
+                            "name": "play-ahc-ws_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.13/2.8.1/play-ahc-ws_2.13-2.8.1-javadoc.jar"
                         }
                     ]
                 },
@@ -279,6 +390,11 @@
                             "name": "error_prone_annotations",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2-sources.jar"
+                        },
+                        {
+                            "name": "error_prone_annotations",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2-javadoc.jar"
                         }
                     ]
                 },
@@ -296,6 +412,11 @@
                             "name": "reactivemongo-akkastream_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-akkastream_2.13/0.20.3/reactivemongo-akkastream_2.13-0.20.3-sources.jar"
+                        },
+                        {
+                            "name": "reactivemongo-akkastream_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-akkastream_2.13/0.20.3/reactivemongo-akkastream_2.13-0.20.3-javadoc.jar"
                         }
                     ]
                 },
@@ -313,6 +434,11 @@
                             "name": "commons-codec",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.14/commons-codec-1.14-sources.jar"
+                        },
+                        {
+                            "name": "commons-codec",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.14/commons-codec-1.14-javadoc.jar"
                         }
                     ]
                 },
@@ -330,6 +456,11 @@
                             "name": "commons-lang3",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9-sources.jar"
+                        },
+                        {
+                            "name": "commons-lang3",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9-javadoc.jar"
                         }
                     ]
                 },
@@ -347,6 +478,11 @@
                             "name": "javax.inject",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar"
+                        },
+                        {
+                            "name": "javax.inject",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-javadoc.jar"
                         }
                     ]
                 },
@@ -364,6 +500,77 @@
                             "name": "scala-xml_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0-sources.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-opera-driver",
+                    "version": "3.141.59",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "selenium-opera-driver",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar"
+                        },
+                        {
+                            "name": "selenium-opera-driver",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59-sources.jar"
+                        },
+                        {
+                            "name": "selenium-opera-driver",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatestplus.play",
+                    "name": "scalatestplus-play_2.13",
+                    "version": "5.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatestplus-play_2.13",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatestplus/play/scalatestplus-play_2.13/5.0.0/scalatestplus-play_2.13-5.0.0.jar"
+                        },
+                        {
+                            "name": "scalatestplus-play_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatestplus/play/scalatestplus-play_2.13/5.0.0/scalatestplus-play_2.13-5.0.0-sources.jar"
+                        },
+                        {
+                            "name": "scalatestplus-play_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatestplus/play/scalatestplus-play_2.13/5.0.0/scalatestplus-play_2.13-5.0.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-firefox-driver",
+                    "version": "3.141.59",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "selenium-firefox-driver",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar"
+                        },
+                        {
+                            "name": "selenium-firefox-driver",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59-sources.jar"
+                        },
+                        {
+                            "name": "selenium-firefox-driver",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59-javadoc.jar"
                         }
                     ]
                 },
@@ -381,6 +588,55 @@
                             "name": "config",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0-sources.jar"
+                        },
+                        {
+                            "name": "config",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.bytebuddy",
+                    "name": "byte-buddy",
+                    "version": "1.10.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "byte-buddy",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.10.5/byte-buddy-1.10.5.jar"
+                        },
+                        {
+                            "name": "byte-buddy",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.10.5/byte-buddy-1.10.5-sources.jar"
+                        },
+                        {
+                            "name": "byte-buddy",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.10.5/byte-buddy-1.10.5-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpcore",
+                    "version": "4.4.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "httpcore",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar"
+                        },
+                        {
+                            "name": "httpcore",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11-sources.jar"
+                        },
+                        {
+                            "name": "httpcore",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11-javadoc.jar"
                         }
                     ]
                 },
@@ -398,6 +654,11 @@
                             "name": "play-ws_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws_2.13/2.8.1/play-ws_2.13-2.8.1-sources.jar"
+                        },
+                        {
+                            "name": "play-ws_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws_2.13/2.8.1/play-ws_2.13-2.8.1-javadoc.jar"
                         }
                     ]
                 },
@@ -415,6 +676,11 @@
                             "name": "checker-qual",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1-sources.jar"
+                        },
+                        {
+                            "name": "checker-qual",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1-javadoc.jar"
                         }
                     ]
                 },
@@ -432,6 +698,33 @@
                             "name": "jjwt",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-sources.jar"
+                        },
+                        {
+                            "name": "jjwt",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-xml",
+                    "version": "9.4.20.v20190813",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-xml",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.4.20.v20190813/jetty-xml-9.4.20.v20190813.jar"
+                        },
+                        {
+                            "name": "jetty-xml",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.4.20.v20190813/jetty-xml-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "jetty-xml",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.4.20.v20190813/jetty-xml-9.4.20.v20190813-javadoc.jar"
                         }
                     ]
                 },
@@ -449,6 +742,77 @@
                             "name": "scala-java8-compat_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0-sources.jar"
+                        },
+                        {
+                            "name": "scala-java8-compat_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty.websocket",
+                    "name": "websocket-api",
+                    "version": "9.4.20.v20190813",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "websocket-api",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.20.v20190813/websocket-api-9.4.20.v20190813.jar"
+                        },
+                        {
+                            "name": "websocket-api",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.20.v20190813/websocket-api-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "websocket-api",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.20.v20190813/websocket-api-9.4.20.v20190813-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.sourceforge.htmlunit",
+                    "name": "htmlunit",
+                    "version": "2.36.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "htmlunit",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.36.0/htmlunit-2.36.0.jar"
+                        },
+                        {
+                            "name": "htmlunit",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.36.0/htmlunit-2.36.0-sources.jar"
+                        },
+                        {
+                            "name": "htmlunit",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.36.0/htmlunit-2.36.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpmime",
+                    "version": "4.5.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "httpmime",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.9/httpmime-4.5.9.jar"
+                        },
+                        {
+                            "name": "httpmime",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.9/httpmime-4.5.9-sources.jar"
+                        },
+                        {
+                            "name": "httpmime",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.9/httpmime-4.5.9-javadoc.jar"
                         }
                     ]
                 },
@@ -466,6 +830,11 @@
                             "name": "play-akka-http-server_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.1/play-akka-http-server_2.13-2.8.1-sources.jar"
+                        },
+                        {
+                            "name": "play-akka-http-server_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.1/play-akka-http-server_2.13-2.8.1-javadoc.jar"
                         }
                     ]
                 },
@@ -483,6 +852,11 @@
                             "name": "scala-library",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-javadoc.jar"
                         }
                     ]
                 },
@@ -500,6 +874,11 @@
                             "name": "play-exceptions",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.1/play-exceptions-2.8.1-sources.jar"
+                        },
+                        {
+                            "name": "play-exceptions",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.1/play-exceptions-2.8.1-javadoc.jar"
                         }
                     ]
                 },
@@ -517,6 +896,55 @@
                             "name": "twirl-api_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.0/twirl-api_2.13-1.5.0-sources.jar"
+                        },
+                        {
+                            "name": "twirl-api_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.0/twirl-api_2.13-1.5.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-client",
+                    "version": "9.4.20.v20190813",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-client",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.20.v20190813/jetty-client-9.4.20.v20190813.jar"
+                        },
+                        {
+                            "name": "jetty-client",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.20.v20190813/jetty-client-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "jetty-client",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.20.v20190813/jetty-client-9.4.20.v20190813-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-logging",
+                    "name": "commons-logging",
+                    "version": "1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-logging",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+                        },
+                        {
+                            "name": "commons-logging",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"
+                        },
+                        {
+                            "name": "commons-logging",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-javadoc.jar"
                         }
                     ]
                 },
@@ -534,6 +962,33 @@
                             "name": "commons-io",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.6/commons-io-2.6-sources.jar"
+                        },
+                        {
+                            "name": "commons-io",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.6/commons-io-2.6-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-text",
+                    "version": "1.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-text",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.7/commons-text-1.7.jar"
+                        },
+                        {
+                            "name": "commons-text",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.7/commons-text-1.7-sources.jar"
+                        },
+                        {
+                            "name": "commons-text",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.7/commons-text-1.7-javadoc.jar"
                         }
                     ]
                 },
@@ -551,6 +1006,11 @@
                             "name": "dnsjava",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dnsjava/dnsjava/2.1.9/dnsjava-2.1.9-sources.jar"
+                        },
+                        {
+                            "name": "dnsjava",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dnsjava/dnsjava/2.1.9/dnsjava-2.1.9-javadoc.jar"
                         }
                     ]
                 },
@@ -568,6 +1028,33 @@
                             "name": "hamcrest-core",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1-sources.jar"
+                        },
+                        {
+                            "name": "hamcrest-core",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.codeborne",
+                    "name": "phantomjsdriver",
+                    "version": "1.4.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "phantomjsdriver",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/codeborne/phantomjsdriver/1.4.4/phantomjsdriver-1.4.4.jar"
+                        },
+                        {
+                            "name": "phantomjsdriver",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/codeborne/phantomjsdriver/1.4.4/phantomjsdriver-1.4.4-sources.jar"
+                        },
+                        {
+                            "name": "phantomjsdriver",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/codeborne/phantomjsdriver/1.4.4/phantomjsdriver-1.4.4-javadoc.jar"
                         }
                     ]
                 },
@@ -602,6 +1089,11 @@
                             "name": "scala-parser-combinators_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2-sources.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2-javadoc.jar"
                         }
                     ]
                 },
@@ -619,6 +1111,33 @@
                             "name": "jakarta.activation-api",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1-sources.jar"
+                        },
+                        {
+                            "name": "jakarta.activation-api",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty.websocket",
+                    "name": "websocket-common",
+                    "version": "9.4.20.v20190813",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "websocket-common",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.20.v20190813/websocket-common-9.4.20.v20190813.jar"
+                        },
+                        {
+                            "name": "websocket-common",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.20.v20190813/websocket-common-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "websocket-common",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.20.v20190813/websocket-common-9.4.20.v20190813-javadoc.jar"
                         }
                     ]
                 },
@@ -636,6 +1155,33 @@
                             "name": "jackson-annotations",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.2/jackson-annotations-2.10.2-sources.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.2/jackson-annotations-2.10.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.sourceforge.htmlunit",
+                    "name": "htmlunit-cssparser",
+                    "version": "1.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "htmlunit-cssparser",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-cssparser/1.5.0/htmlunit-cssparser-1.5.0.jar"
+                        },
+                        {
+                            "name": "htmlunit-cssparser",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-cssparser/1.5.0/htmlunit-cssparser-1.5.0-sources.jar"
+                        },
+                        {
+                            "name": "htmlunit-cssparser",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-cssparser/1.5.0/htmlunit-cssparser-1.5.0-javadoc.jar"
                         }
                     ]
                 },
@@ -653,6 +1199,11 @@
                             "name": "jetty-io",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.20.v20190813/jetty-io-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "jetty-io",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.20.v20190813/jetty-io-9.4.20.v20190813-javadoc.jar"
                         }
                     ]
                 },
@@ -670,6 +1221,11 @@
                             "name": "reactivemongo-bson-api_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson-api_2.13/0.20.3/reactivemongo-bson-api_2.13-0.20.3-sources.jar"
+                        },
+                        {
+                            "name": "reactivemongo-bson-api_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson-api_2.13/0.20.3/reactivemongo-bson-api_2.13-0.20.3-javadoc.jar"
                         }
                     ]
                 },
@@ -687,6 +1243,11 @@
                             "name": "jackson-module-paranamer",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.2/jackson-module-paranamer-2.10.2-sources.jar"
+                        },
+                        {
+                            "name": "jackson-module-paranamer",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.2/jackson-module-paranamer-2.10.2-javadoc.jar"
                         }
                     ]
                 },
@@ -704,6 +1265,11 @@
                             "name": "akka-stream_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.3/akka-stream_2.13-2.6.3-sources.jar"
+                        },
+                        {
+                            "name": "akka-stream_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.3/akka-stream_2.13-2.6.3-javadoc.jar"
                         }
                     ]
                 },
@@ -721,6 +1287,33 @@
                             "name": "play-ahc-ws-standalone_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.13/2.1.2/play-ahc-ws-standalone_2.13-2.1.2-sources.jar"
+                        },
+                        {
+                            "name": "play-ahc-ws-standalone_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.13/2.1.2/play-ahc-ws-standalone_2.13-2.1.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.sourceforge.htmlunit",
+                    "name": "neko-htmlunit",
+                    "version": "2.36.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "neko-htmlunit",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/neko-htmlunit/2.36.0/neko-htmlunit-2.36.0.jar"
+                        },
+                        {
+                            "name": "neko-htmlunit",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/neko-htmlunit/2.36.0/neko-htmlunit-2.36.0-sources.jar"
+                        },
+                        {
+                            "name": "neko-htmlunit",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/neko-htmlunit/2.36.0/neko-htmlunit-2.36.0-javadoc.jar"
                         }
                     ]
                 },
@@ -738,6 +1331,11 @@
                             "name": "reactivemongo-play-json_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-play-json_2.13/0.20.3-play28/reactivemongo-play-json_2.13-0.20.3-play28-sources.jar"
+                        },
+                        {
+                            "name": "reactivemongo-play-json_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-play-json_2.13/0.20.3-play28/reactivemongo-play-json_2.13-0.20.3-play28-javadoc.jar"
                         }
                     ]
                 },
@@ -755,6 +1353,11 @@
                             "name": "hamcrest",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest/2.1/hamcrest-2.1-sources.jar"
+                        },
+                        {
+                            "name": "hamcrest",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest/2.1/hamcrest-2.1-javadoc.jar"
                         }
                     ]
                 },
@@ -772,6 +1375,11 @@
                             "name": "play_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.1/play_2.13-2.8.1-sources.jar"
+                        },
+                        {
+                            "name": "play_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.1/play_2.13-2.8.1-javadoc.jar"
                         }
                     ]
                 },
@@ -789,6 +1397,11 @@
                             "name": "akka-http-core_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.11/akka-http-core_2.13-10.1.11-sources.jar"
+                        },
+                        {
+                            "name": "akka-http-core_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.11/akka-http-core_2.13-10.1.11-javadoc.jar"
                         }
                     ]
                 },
@@ -806,6 +1419,33 @@
                             "name": "play-streams_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.1/play-streams_2.13-2.8.1-sources.jar"
+                        },
+                        {
+                            "name": "play-streams_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.1/play-streams_2.13-2.8.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "xml-apis",
+                    "name": "xml-apis",
+                    "version": "1.4.01",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "xml-apis",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar"
+                        },
+                        {
+                            "name": "xml-apis",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-sources.jar"
+                        },
+                        {
+                            "name": "xml-apis",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-javadoc.jar"
                         }
                     ]
                 },
@@ -823,6 +1463,11 @@
                             "name": "jackson-module-parameter-names",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.2/jackson-module-parameter-names-2.10.2-sources.jar"
+                        },
+                        {
+                            "name": "jackson-module-parameter-names",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.2/jackson-module-parameter-names-2.10.2-javadoc.jar"
                         }
                     ]
                 },
@@ -840,6 +1485,11 @@
                             "name": "logback-classic",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar"
+                        },
+                        {
+                            "name": "logback-classic",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-javadoc.jar"
                         }
                     ]
                 },
@@ -857,23 +1507,33 @@
                             "name": "play-ws-standalone-xml_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.13/2.1.2/play-ws-standalone-xml_2.13-2.1.2-sources.jar"
+                        },
+                        {
+                            "name": "play-ws-standalone-xml_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.13/2.1.2/play-ws-standalone-xml_2.13-2.1.2-javadoc.jar"
                         }
                     ]
                 },
                 {
-                    "organization": "org.apache.httpcomponents",
-                    "name": "httpcore",
-                    "version": "4.4.11",
+                    "organization": "commons-net",
+                    "name": "commons-net",
+                    "version": "3.6",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "httpcore",
-                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar"
+                            "name": "commons-net",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-net/commons-net/3.6/commons-net-3.6.jar"
                         },
                         {
-                            "name": "httpcore",
+                            "name": "commons-net",
                             "classifier": "sources",
-                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11-sources.jar"
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-net/commons-net/3.6/commons-net-3.6-sources.jar"
+                        },
+                        {
+                            "name": "commons-net",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-net/commons-net/3.6/commons-net-3.6-javadoc.jar"
                         }
                     ]
                 },
@@ -895,6 +1555,50 @@
                     ]
                 },
                 {
+                    "organization": "com.squareup.okio",
+                    "name": "okio",
+                    "version": "1.14.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "okio",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar"
+                        },
+                        {
+                            "name": "okio",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okio/okio/1.14.0/okio-1.14.0-sources.jar"
+                        },
+                        {
+                            "name": "okio",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okio/okio/1.14.0/okio-1.14.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest_2.13",
+                    "version": "3.0.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest_2.13",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8.jar"
+                        },
+                        {
+                            "name": "scalatest_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8-sources.jar"
+                        },
+                        {
+                            "name": "scalatest_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8-javadoc.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "com.typesafe.play",
                     "name": "filters-helpers_2.13",
                     "version": "2.8.1",
@@ -908,6 +1612,33 @@
                             "name": "filters-helpers_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.1/filters-helpers_2.13-2.8.1-sources.jar"
+                        },
+                        {
+                            "name": "filters-helpers_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.1/filters-helpers_2.13-2.8.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-java",
+                    "version": "3.141.59",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "selenium-java",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar"
+                        },
+                        {
+                            "name": "selenium-java",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59-sources.jar"
+                        },
+                        {
+                            "name": "selenium-java",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59-javadoc.jar"
                         }
                     ]
                 },
@@ -925,6 +1656,11 @@
                             "name": "jsr305",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar"
+                        },
+                        {
+                            "name": "jsr305",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-javadoc.jar"
                         }
                     ]
                 },
@@ -942,6 +1678,55 @@
                             "name": "slf4j-api",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-edge-driver",
+                    "version": "3.141.59",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "selenium-edge-driver",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar"
+                        },
+                        {
+                            "name": "selenium-edge-driver",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59-sources.jar"
+                        },
+                        {
+                            "name": "selenium-edge-driver",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.fluentlenium",
+                    "name": "fluentlenium-core",
+                    "version": "3.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "fluentlenium-core",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/3.7.1/fluentlenium-core-3.7.1.jar"
+                        },
+                        {
+                            "name": "fluentlenium-core",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/3.7.1/fluentlenium-core-3.7.1-sources.jar"
+                        },
+                        {
+                            "name": "fluentlenium-core",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/3.7.1/fluentlenium-core-3.7.1-javadoc.jar"
                         }
                     ]
                 },
@@ -959,6 +1744,11 @@
                             "name": "akka-protobuf-v3_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.3/akka-protobuf-v3_2.13-2.6.3-sources.jar"
+                        },
+                        {
+                            "name": "akka-protobuf-v3_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.3/akka-protobuf-v3_2.13-2.6.3-javadoc.jar"
                         }
                     ]
                 },
@@ -971,23 +1761,6 @@
                         {
                             "name": "listenablefuture",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "commons-logging",
-                    "name": "commons-logging",
-                    "version": "1.2",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "commons-logging",
-                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
-                        },
-                        {
-                            "name": "commons-logging",
-                            "classifier": "sources",
-                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"
                         }
                     ]
                 },
@@ -1005,6 +1778,11 @@
                             "name": "httpclient",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9-sources.jar"
+                        },
+                        {
+                            "name": "httpclient",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9-javadoc.jar"
                         }
                     ]
                 },
@@ -1022,6 +1800,11 @@
                             "name": "joda-time",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5-sources.jar"
+                        },
+                        {
+                            "name": "joda-time",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5-javadoc.jar"
                         }
                     ]
                 },
@@ -1039,6 +1822,11 @@
                             "name": "jackson-datatype-jdk8",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.2/jackson-datatype-jdk8-2.10.2-sources.jar"
+                        },
+                        {
+                            "name": "jackson-datatype-jdk8",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.2/jackson-datatype-jdk8-2.10.2-javadoc.jar"
                         }
                     ]
                 },
@@ -1056,6 +1844,11 @@
                             "name": "reactivemongo-bson-compat_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson-compat_2.13/0.20.3/reactivemongo-bson-compat_2.13-0.20.3-sources.jar"
+                        },
+                        {
+                            "name": "reactivemongo-bson-compat_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson-compat_2.13/0.20.3/reactivemongo-bson-compat_2.13-0.20.3-javadoc.jar"
                         }
                     ]
                 },
@@ -1073,6 +1866,11 @@
                             "name": "play-ws-standalone_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.13/2.1.2/play-ws-standalone_2.13-2.1.2-sources.jar"
+                        },
+                        {
+                            "name": "play-ws-standalone_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.13/2.1.2/play-ws-standalone_2.13-2.1.2-javadoc.jar"
                         }
                     ]
                 },
@@ -1094,6 +1892,72 @@
                     ]
                 },
                 {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "htmlunit-driver",
+                    "version": "2.36.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "htmlunit-driver",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/htmlunit-driver/2.36.0/htmlunit-driver-2.36.0.jar"
+                        },
+                        {
+                            "name": "htmlunit-driver",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/htmlunit-driver/2.36.0/htmlunit-driver-2.36.0-sources.jar"
+                        },
+                        {
+                            "name": "htmlunit-driver",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/htmlunit-driver/2.36.0/htmlunit-driver-2.36.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-http",
+                    "version": "9.4.20.v20190813",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-http",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.20.v20190813/jetty-http-9.4.20.v20190813.jar"
+                        },
+                        {
+                            "name": "jetty-http",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.20.v20190813/jetty-http-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "jetty-http",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.20.v20190813/jetty-http-9.4.20.v20190813-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "xalan",
+                    "name": "xalan",
+                    "version": "2.7.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "xalan",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2.jar"
+                        },
+                        {
+                            "name": "xalan",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2-sources.jar"
+                        },
+                        {
+                            "name": "xalan",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "org.scalatest",
                     "name": "scalatest-compatible",
                     "version": "3.3.0-SNAP2",
@@ -1107,6 +1971,33 @@
                             "name": "scalatest-compatible",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.3.0-SNAP2/scalatest-compatible-3.3.0-SNAP2-sources.jar"
+                        },
+                        {
+                            "name": "scalatest-compatible",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.3.0-SNAP2/scalatest-compatible-3.3.0-SNAP2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-safari-driver",
+                    "version": "3.141.59",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "selenium-safari-driver",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar"
+                        },
+                        {
+                            "name": "selenium-safari-driver",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59-sources.jar"
+                        },
+                        {
+                            "name": "selenium-safari-driver",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59-javadoc.jar"
                         }
                     ]
                 },
@@ -1124,6 +2015,55 @@
                             "name": "shaded-asynchttpclient",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.1.2/shaded-asynchttpclient-2.1.2-sources.jar"
+                        },
+                        {
+                            "name": "shaded-asynchttpclient",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.1.2/shaded-asynchttpclient-2.1.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-chrome-driver",
+                    "version": "3.141.59",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "selenium-chrome-driver",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar"
+                        },
+                        {
+                            "name": "selenium-chrome-driver",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59-sources.jar"
+                        },
+                        {
+                            "name": "selenium-chrome-driver",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "junit",
+                    "name": "junit",
+                    "version": "4.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "junit",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar"
+                        },
+                        {
+                            "name": "junit",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-sources.jar"
+                        },
+                        {
+                            "name": "junit",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-javadoc.jar"
                         }
                     ]
                 },
@@ -1141,6 +2081,11 @@
                             "name": "play-server_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.1/play-server_2.13-2.8.1-sources.jar"
+                        },
+                        {
+                            "name": "play-server_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.1/play-server_2.13-2.8.1-javadoc.jar"
                         }
                     ]
                 },
@@ -1158,6 +2103,11 @@
                             "name": "protobuf-java",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.10.0/protobuf-java-3.10.0-sources.jar"
+                        },
+                        {
+                            "name": "protobuf-java",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.10.0/protobuf-java-3.10.0-javadoc.jar"
                         }
                     ]
                 },
@@ -1175,6 +2125,11 @@
                             "name": "play-guice_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.13/2.8.1/play-guice_2.13-2.8.1-sources.jar"
+                        },
+                        {
+                            "name": "play-guice_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.13/2.8.1/play-guice_2.13-2.8.1-javadoc.jar"
                         }
                     ]
                 },
@@ -1209,6 +2164,11 @@
                             "name": "jakarta.transaction-api",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3-sources.jar"
+                        },
+                        {
+                            "name": "jakarta.transaction-api",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3-javadoc.jar"
                         }
                     ]
                 },
@@ -1226,6 +2186,11 @@
                             "name": "akka-slf4j_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.3/akka-slf4j_2.13-2.6.3-sources.jar"
+                        },
+                        {
+                            "name": "akka-slf4j_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.3/akka-slf4j_2.13-2.6.3-javadoc.jar"
                         }
                     ]
                 },
@@ -1243,6 +2208,11 @@
                             "name": "j2objc-annotations",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3-sources.jar"
+                        },
+                        {
+                            "name": "j2objc-annotations",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3-javadoc.jar"
                         }
                     ]
                 },
@@ -1260,6 +2230,55 @@
                             "name": "guava",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/28.1-jre/guava-28.1-jre-sources.jar"
+                        },
+                        {
+                            "name": "guava",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/28.1-jre/guava-28.1-jre-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-support",
+                    "version": "3.141.59",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "selenium-support",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar"
+                        },
+                        {
+                            "name": "selenium-support",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59-sources.jar"
+                        },
+                        {
+                            "name": "selenium-support",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-remote-driver",
+                    "version": "3.141.59",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "selenium-remote-driver",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar"
+                        },
+                        {
+                            "name": "selenium-remote-driver",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59-sources.jar"
+                        },
+                        {
+                            "name": "selenium-remote-driver",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59-javadoc.jar"
                         }
                     ]
                 },
@@ -1277,6 +2296,33 @@
                             "name": "shaded-oauth",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/2.1.2/shaded-oauth-2.1.2-sources.jar"
+                        },
+                        {
+                            "name": "shaded-oauth",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/2.1.2/shaded-oauth-2.1.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.novocode",
+                    "name": "junit-interface",
+                    "version": "0.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "junit-interface",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.jar"
+                        },
+                        {
+                            "name": "junit-interface",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11-sources.jar"
+                        },
+                        {
+                            "name": "junit-interface",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11-javadoc.jar"
                         }
                     ]
                 },
@@ -1294,6 +2340,33 @@
                             "name": "play2-reactivemongo_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/play2-reactivemongo_2.13/0.20.3-play28/play2-reactivemongo_2.13-0.20.3-play28-sources.jar"
+                        },
+                        {
+                            "name": "play2-reactivemongo_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/play2-reactivemongo_2.13/0.20.3-play28/play2-reactivemongo_2.13-0.20.3-play28-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-ie-driver",
+                    "version": "3.141.59",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "selenium-ie-driver",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar"
+                        },
+                        {
+                            "name": "selenium-ie-driver",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59-sources.jar"
+                        },
+                        {
+                            "name": "selenium-ie-driver",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59-javadoc.jar"
                         }
                     ]
                 },
@@ -1315,6 +2388,50 @@
                     ]
                 },
                 {
+                    "organization": "xalan",
+                    "name": "serializer",
+                    "version": "2.7.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "serializer",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2.jar"
+                        },
+                        {
+                            "name": "serializer",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2-sources.jar"
+                        },
+                        {
+                            "name": "serializer",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.squareup.okhttp3",
+                    "name": "okhttp",
+                    "version": "3.11.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "okhttp",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar"
+                        },
+                        {
+                            "name": "okhttp",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0-sources.jar"
+                        },
+                        {
+                            "name": "okhttp",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "org.reactivemongo",
                     "name": "reactivemongo-shaded",
                     "version": "0.20.3",
@@ -1328,6 +2445,11 @@
                             "name": "reactivemongo-shaded",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-shaded/0.20.3/reactivemongo-shaded-0.20.3-sources.jar"
+                        },
+                        {
+                            "name": "reactivemongo-shaded",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-shaded/0.20.3/reactivemongo-shaded-0.20.3-javadoc.jar"
                         }
                     ]
                 },
@@ -1345,6 +2467,11 @@
                             "name": "failureaccess",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar"
+                        },
+                        {
+                            "name": "failureaccess",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-javadoc.jar"
                         }
                     ]
                 },
@@ -1362,6 +2489,11 @@
                             "name": "guice",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/4.2.2/guice-4.2.2-sources.jar"
+                        },
+                        {
+                            "name": "guice",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/4.2.2/guice-4.2.2-javadoc.jar"
                         }
                     ]
                 },
@@ -1379,6 +2511,33 @@
                             "name": "jetty-util",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.20.v20190813/jetty-util-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "jetty-util",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.20.v20190813/jetty-util-9.4.20.v20190813-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty.websocket",
+                    "name": "websocket-client",
+                    "version": "9.4.20.v20190813",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "websocket-client",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.20.v20190813/websocket-client-9.4.20.v20190813.jar"
+                        },
+                        {
+                            "name": "websocket-client",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.20.v20190813/websocket-client-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "websocket-client",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.20.v20190813/websocket-client-9.4.20.v20190813-javadoc.jar"
                         }
                     ]
                 },
@@ -1396,6 +2555,11 @@
                             "name": "reactivemongo_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo_2.13/0.20.3/reactivemongo_2.13-0.20.3-sources.jar"
+                        },
+                        {
+                            "name": "reactivemongo_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo_2.13/0.20.3/reactivemongo_2.13-0.20.3-javadoc.jar"
                         }
                     ]
                 },
@@ -1413,6 +2577,11 @@
                             "name": "reactivemongo-bson_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson_2.13/0.20.3/reactivemongo-bson_2.13-0.20.3-sources.jar"
+                        },
+                        {
+                            "name": "reactivemongo-bson_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson_2.13/0.20.3/reactivemongo-bson_2.13-0.20.3-javadoc.jar"
                         }
                     ]
                 },
@@ -1430,6 +2599,11 @@
                             "name": "jcl-over-slf4j",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.29/jcl-over-slf4j-1.7.29-sources.jar"
+                        },
+                        {
+                            "name": "jcl-over-slf4j",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.29/jcl-over-slf4j-1.7.29-javadoc.jar"
                         }
                     ]
                 },
@@ -1447,6 +2621,11 @@
                             "name": "jackson-module-scala_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.2/jackson-module-scala_2.13-2.10.2-sources.jar"
+                        },
+                        {
+                            "name": "jackson-module-scala_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.2/jackson-module-scala_2.13-2.10.2-javadoc.jar"
                         }
                     ]
                 },
@@ -1464,6 +2643,33 @@
                             "name": "akka-serialization-jackson_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.3/akka-serialization-jackson_2.13-2.6.3-sources.jar"
+                        },
+                        {
+                            "name": "akka-serialization-jackson_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.3/akka-serialization-jackson_2.13-2.6.3-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-api",
+                    "version": "3.141.59",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "selenium-api",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar"
+                        },
+                        {
+                            "name": "selenium-api",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar"
+                        },
+                        {
+                            "name": "selenium-api",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-javadoc.jar"
                         }
                     ]
                 },
@@ -1481,23 +2687,33 @@
                             "name": "cachecontrol_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.13/2.0.0/cachecontrol_2.13-2.0.0-sources.jar"
+                        },
+                        {
+                            "name": "cachecontrol_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.13/2.0.0/cachecontrol_2.13-2.0.0-javadoc.jar"
                         }
                     ]
                 },
                 {
-                    "organization": "org.eclipse.jetty",
-                    "name": "jetty-http",
-                    "version": "9.4.20.v20190813",
+                    "organization": "org.brotli",
+                    "name": "dec",
+                    "version": "0.1.2",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "jetty-http",
-                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.20.v20190813/jetty-http-9.4.20.v20190813.jar"
+                            "name": "dec",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/brotli/dec/0.1.2/dec-0.1.2.jar"
                         },
                         {
-                            "name": "jetty-http",
+                            "name": "dec",
                             "classifier": "sources",
-                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.20.v20190813/jetty-http-9.4.20.v20190813-sources.jar"
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/brotli/dec/0.1.2/dec-0.1.2-sources.jar"
+                        },
+                        {
+                            "name": "dec",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/brotli/dec/0.1.2/dec-0.1.2-javadoc.jar"
                         }
                     ]
                 },
@@ -1515,6 +2731,11 @@
                             "name": "ssl-config-core_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.1/ssl-config-core_2.13-0.4.1-sources.jar"
+                        },
+                        {
+                            "name": "ssl-config-core_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.1/ssl-config-core_2.13-0.4.1-javadoc.jar"
                         }
                     ]
                 },
@@ -1532,6 +2753,33 @@
                             "name": "jackson-databind",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.2/jackson-databind-2.10.2-sources.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.2/jackson-databind-2.10.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-test_2.13",
+                    "version": "2.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-test_2.13",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-test_2.13/2.8.1/play-test_2.13-2.8.1.jar"
+                        },
+                        {
+                            "name": "play-test_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-test_2.13/2.8.1/play-test_2.13-2.8.1-sources.jar"
+                        },
+                        {
+                            "name": "play-test_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-test_2.13/2.8.1/play-test_2.13-2.8.1-javadoc.jar"
                         }
                     ]
                 },
@@ -1549,6 +2797,33 @@
                             "name": "play-logback_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.1/play-logback_2.13-2.8.1-sources.jar"
+                        },
+                        {
+                            "name": "play-logback_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.1/play-logback_2.13-2.8.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-exec",
+                    "version": "1.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-exec",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar"
+                        },
+                        {
+                            "name": "commons-exec",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3-sources.jar"
+                        },
+                        {
+                            "name": "commons-exec",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3-javadoc.jar"
                         }
                     ]
                 },
@@ -1583,23 +2858,11 @@
                             "name": "guice-assistedinject",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.2.2/guice-assistedinject-4.2.2-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.eclipse.jetty",
-                    "name": "jetty-xml",
-                    "version": "9.4.20.v20190813",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "jetty-xml",
-                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.4.20.v20190813/jetty-xml-9.4.20.v20190813.jar"
                         },
                         {
-                            "name": "jetty-xml",
-                            "classifier": "sources",
-                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.4.20.v20190813/jetty-xml-9.4.20.v20190813-sources.jar"
+                            "name": "guice-assistedinject",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.2.2/guice-assistedinject-4.2.2-javadoc.jar"
                         }
                     ]
                 },
@@ -1617,6 +2880,11 @@
                             "name": "play-functional_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.1/play-functional_2.13-2.8.1-sources.jar"
+                        },
+                        {
+                            "name": "play-functional_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.1/play-functional_2.13-2.8.1-javadoc.jar"
                         }
                     ]
                 },
@@ -1634,6 +2902,11 @@
                             "name": "build-link",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.1/build-link-2.8.1-sources.jar"
+                        },
+                        {
+                            "name": "build-link",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.1/build-link-2.8.1-javadoc.jar"
                         }
                     ]
                 },
@@ -1651,6 +2924,33 @@
                             "name": "cache-api",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/cache/cache-api/1.1.1/cache-api-1.1.1-sources.jar"
+                        },
+                        {
+                            "name": "cache-api",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/cache/cache-api/1.1.1/cache-api-1.1.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.atteo.classindex",
+                    "name": "classindex",
+                    "version": "3.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "classindex",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/atteo/classindex/classindex/3.4/classindex-3.4.jar"
+                        },
+                        {
+                            "name": "classindex",
+                            "classifier": "sources",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/atteo/classindex/classindex/3.4/classindex-3.4-sources.jar"
+                        },
+                        {
+                            "name": "classindex",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/atteo/classindex/classindex/3.4/classindex-3.4-javadoc.jar"
                         }
                     ]
                 },
@@ -1668,6 +2968,11 @@
                             "name": "jackson-dataformat-cbor",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.2/jackson-dataformat-cbor-2.10.2-sources.jar"
+                        },
+                        {
+                            "name": "jackson-dataformat-cbor",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.2/jackson-dataformat-cbor-2.10.2-javadoc.jar"
                         }
                     ]
                 },
@@ -1685,6 +2990,11 @@
                             "name": "dotty-library_0.22",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.22/0.22.0-RC1/dotty-library_0.22-0.22.0-RC1-sources.jar"
+                        },
+                        {
+                            "name": "dotty-library_0.22",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.22/0.22.0-RC1/dotty-library_0.22-0.22.0-RC1-javadoc.jar"
                         }
                     ]
                 },
@@ -1702,6 +3012,11 @@
                             "name": "jul-to-slf4j",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29-sources.jar"
+                        },
+                        {
+                            "name": "jul-to-slf4j",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29-javadoc.jar"
                         }
                     ]
                 },
@@ -1719,6 +3034,11 @@
                             "name": "jackson-datatype-jsr310",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.2/jackson-datatype-jsr310-2.10.2-sources.jar"
+                        },
+                        {
+                            "name": "jackson-datatype-jsr310",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.2/jackson-datatype-jsr310-2.10.2-javadoc.jar"
                         }
                     ]
                 },
@@ -1736,6 +3056,11 @@
                             "name": "paranamer",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar"
+                        },
+                        {
+                            "name": "paranamer",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-javadoc.jar"
                         }
                     ]
                 },
@@ -1753,6 +3078,11 @@
                             "name": "reactive-streams",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar"
+                        },
+                        {
+                            "name": "reactive-streams",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-javadoc.jar"
                         }
                     ]
                 },
@@ -1770,6 +3100,11 @@
                             "name": "play-ws-standalone-json_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.13/2.1.2/play-ws-standalone-json_2.13-2.1.2-sources.jar"
+                        },
+                        {
+                            "name": "play-ws-standalone-json_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.13/2.1.2/play-ws-standalone-json_2.13-2.1.2-javadoc.jar"
                         }
                     ]
                 },
@@ -1787,6 +3122,11 @@
                             "name": "akka-actor_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.3/akka-actor_2.13-2.6.3-sources.jar"
+                        },
+                        {
+                            "name": "akka-actor_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.3/akka-actor_2.13-2.6.3-javadoc.jar"
                         }
                     ]
                 },
@@ -1804,6 +3144,11 @@
                             "name": "akka-actor-typed_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.3/akka-actor-typed_2.13-2.6.3-sources.jar"
+                        },
+                        {
+                            "name": "akka-actor-typed_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.3/akka-actor-typed_2.13-2.6.3-javadoc.jar"
                         }
                     ]
                 },
@@ -1821,6 +3166,11 @@
                             "name": "reactivemongo-core_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-core_2.13/0.20.3/reactivemongo-core_2.13-0.20.3-sources.jar"
+                        },
+                        {
+                            "name": "reactivemongo-core_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-core_2.13/0.20.3/reactivemongo-core_2.13-0.20.3-javadoc.jar"
                         }
                     ]
                 },
@@ -1838,6 +3188,11 @@
                             "name": "jakarta.xml.bind-api",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2-sources.jar"
+                        },
+                        {
+                            "name": "jakarta.xml.bind-api",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2-javadoc.jar"
                         }
                     ]
                 },
@@ -1855,6 +3210,11 @@
                             "name": "scala-reflect",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1-sources.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1-javadoc.jar"
                         }
                     ]
                 },
@@ -1872,6 +3232,11 @@
                             "name": "play-json_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.1/play-json_2.13-2.8.1-sources.jar"
+                        },
+                        {
+                            "name": "play-json_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.1/play-json_2.13-2.8.1-javadoc.jar"
                         }
                     ]
                 },
@@ -1889,6 +3254,11 @@
                             "name": "log4j-api",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.13.0/log4j-api-2.13.0-sources.jar"
+                        },
+                        {
+                            "name": "log4j-api",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.13.0/log4j-api-2.13.0-javadoc.jar"
                         }
                     ]
                 },
@@ -1906,6 +3276,11 @@
                             "name": "akka-parsing_2.13",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.11/akka-parsing_2.13-10.1.11-sources.jar"
+                        },
+                        {
+                            "name": "akka-parsing_2.13",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.11/akka-parsing_2.13-10.1.11-javadoc.jar"
                         }
                     ]
                 },
@@ -1923,6 +3298,11 @@
                             "name": "animal-sniffer-annotations",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18-sources.jar"
+                        },
+                        {
+                            "name": "animal-sniffer-annotations",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18-javadoc.jar"
                         }
                     ]
                 },
@@ -1940,6 +3320,11 @@
                             "name": "logback-core",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-javadoc.jar"
                         }
                     ]
                 },
@@ -1957,6 +3342,11 @@
                             "name": "jackson-core",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.2/jackson-core-2.10.2-sources.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.2/jackson-core-2.10.2-javadoc.jar"
                         }
                     ]
                 },
@@ -1974,6 +3364,11 @@
                             "name": "jopt-simple",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3-sources.jar"
+                        },
+                        {
+                            "name": "jopt-simple",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3-javadoc.jar"
                         }
                     ]
                 },
@@ -1991,6 +3386,11 @@
                             "name": "jetty-security",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.4.20.v20190813/jetty-security-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "jetty-security",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.4.20.v20190813/jetty-security-9.4.20.v20190813-javadoc.jar"
                         }
                     ]
                 },
@@ -2008,6 +3408,11 @@
                             "name": "jetty-alpn-client",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-alpn-client/9.4.20.v20190813/jetty-alpn-client-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "jetty-alpn-client",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-alpn-client/9.4.20.v20190813/jetty-alpn-client-9.4.20.v20190813-javadoc.jar"
                         }
                     ]
                 },
@@ -2025,6 +3430,11 @@
                             "name": "wiremock-jre8",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/tomakehurst/wiremock-jre8/2.26.3/wiremock-jre8-2.26.3-sources.jar"
+                        },
+                        {
+                            "name": "wiremock-jre8",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/tomakehurst/wiremock-jre8/2.26.3/wiremock-jre8-2.26.3-javadoc.jar"
                         }
                     ]
                 },
@@ -2042,6 +3452,11 @@
                             "name": "jetty-alpn-conscrypt-client",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-alpn-conscrypt-client/9.4.20.v20190813/jetty-alpn-conscrypt-client-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "jetty-alpn-conscrypt-client",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-alpn-conscrypt-client/9.4.20.v20190813/jetty-alpn-conscrypt-client-9.4.20.v20190813-javadoc.jar"
                         }
                     ]
                 },
@@ -2059,6 +3474,11 @@
                             "name": "jetty-webapp",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.20.v20190813/jetty-webapp-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "jetty-webapp",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.20.v20190813/jetty-webapp-9.4.20.v20190813-javadoc.jar"
                         }
                     ]
                 },
@@ -2076,6 +3496,11 @@
                             "name": "commons-fileupload",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4-sources.jar"
+                        },
+                        {
+                            "name": "commons-fileupload",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4-javadoc.jar"
                         }
                     ]
                 },
@@ -2093,6 +3518,11 @@
                             "name": "http2-server",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/http2/http2-server/9.4.20.v20190813/http2-server-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "http2-server",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/http2/http2-server/9.4.20.v20190813/http2-server-9.4.20.v20190813-javadoc.jar"
                         }
                     ]
                 },
@@ -2110,6 +3540,11 @@
                             "name": "opentest4j",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1-sources.jar"
+                        },
+                        {
+                            "name": "opentest4j",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1-javadoc.jar"
                         }
                     ]
                 },
@@ -2127,6 +3562,11 @@
                             "name": "xmlunit-placeholders",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/xmlunit/xmlunit-placeholders/2.6.2/xmlunit-placeholders-2.6.2-sources.jar"
+                        },
+                        {
+                            "name": "xmlunit-placeholders",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/xmlunit/xmlunit-placeholders/2.6.2/xmlunit-placeholders-2.6.2-javadoc.jar"
                         }
                     ]
                 },
@@ -2144,6 +3584,11 @@
                             "name": "handlebars-helpers",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/jknack/handlebars-helpers/4.1.2/handlebars-helpers-4.1.2-sources.jar"
+                        },
+                        {
+                            "name": "handlebars-helpers",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/jknack/handlebars-helpers/4.1.2/handlebars-helpers-4.1.2-javadoc.jar"
                         }
                     ]
                 },
@@ -2161,6 +3606,11 @@
                             "name": "jetty-alpn-conscrypt-server",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-alpn-conscrypt-server/9.4.20.v20190813/jetty-alpn-conscrypt-server-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "jetty-alpn-conscrypt-server",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-alpn-conscrypt-server/9.4.20.v20190813/jetty-alpn-conscrypt-server-9.4.20.v20190813-javadoc.jar"
                         }
                     ]
                 },
@@ -2178,6 +3628,11 @@
                             "name": "jetty-server",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.4.20.v20190813/jetty-server-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "jetty-server",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.4.20.v20190813/jetty-server-9.4.20.v20190813-javadoc.jar"
                         }
                     ]
                 },
@@ -2195,6 +3650,11 @@
                             "name": "jetty-servlet",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.20.v20190813/jetty-servlet-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "jetty-servlet",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.20.v20190813/jetty-servlet-9.4.20.v20190813-javadoc.jar"
                         }
                     ]
                 },
@@ -2212,6 +3672,11 @@
                             "name": "jetty-alpn-server",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-alpn-server/9.4.20.v20190813/jetty-alpn-server-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "jetty-alpn-server",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-alpn-server/9.4.20.v20190813/jetty-alpn-server-9.4.20.v20190813-javadoc.jar"
                         }
                     ]
                 },
@@ -2229,6 +3694,11 @@
                             "name": "accessors-smart",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/minidev/accessors-smart/1.2/accessors-smart-1.2-sources.jar"
+                        },
+                        {
+                            "name": "accessors-smart",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/minidev/accessors-smart/1.2/accessors-smart-1.2-javadoc.jar"
                         }
                     ]
                 },
@@ -2246,6 +3716,11 @@
                             "name": "http2-hpack",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/http2/http2-hpack/9.4.20.v20190813/http2-hpack-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "http2-hpack",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/http2/http2-hpack/9.4.20.v20190813/http2-hpack-9.4.20.v20190813-javadoc.jar"
                         }
                     ]
                 },
@@ -2263,6 +3738,11 @@
                             "name": "zjsonpatch",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/flipkart/zjsonpatch/zjsonpatch/0.4.4/zjsonpatch-0.4.4-sources.jar"
+                        },
+                        {
+                            "name": "zjsonpatch",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/flipkart/zjsonpatch/zjsonpatch/0.4.4/zjsonpatch-0.4.4-javadoc.jar"
                         }
                     ]
                 },
@@ -2280,6 +3760,11 @@
                             "name": "xmlunit-legacy",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/xmlunit/xmlunit-legacy/2.6.2/xmlunit-legacy-2.6.2-sources.jar"
+                        },
+                        {
+                            "name": "xmlunit-legacy",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/xmlunit/xmlunit-legacy/2.6.2/xmlunit-legacy-2.6.2-javadoc.jar"
                         }
                     ]
                 },
@@ -2297,6 +3782,11 @@
                             "name": "jetty-continuation",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/9.4.20.v20190813/jetty-continuation-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "jetty-continuation",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/9.4.20.v20190813/jetty-continuation-9.4.20.v20190813-javadoc.jar"
                         }
                     ]
                 },
@@ -2314,6 +3804,11 @@
                             "name": "json-unit-core",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/javacrumbs/json-unit/json-unit-core/2.12.0/json-unit-core-2.12.0-sources.jar"
+                        },
+                        {
+                            "name": "json-unit-core",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/javacrumbs/json-unit/json-unit-core/2.12.0/json-unit-core-2.12.0-javadoc.jar"
                         }
                     ]
                 },
@@ -2331,6 +3826,11 @@
                             "name": "json-path",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0-sources.jar"
+                        },
+                        {
+                            "name": "json-path",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0-javadoc.jar"
                         }
                     ]
                 },
@@ -2348,6 +3848,11 @@
                             "name": "json-smart",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/minidev/json-smart/2.3/json-smart-2.3-sources.jar"
+                        },
+                        {
+                            "name": "json-smart",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/minidev/json-smart/2.3/json-smart-2.3-javadoc.jar"
                         }
                     ]
                 },
@@ -2365,6 +3870,11 @@
                             "name": "http2-common",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/http2/http2-common/9.4.20.v20190813/http2-common-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "http2-common",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/http2/http2-common/9.4.20.v20190813/http2-common-9.4.20.v20190813-javadoc.jar"
                         }
                     ]
                 },
@@ -2382,6 +3892,11 @@
                             "name": "javax.servlet-api",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar"
+                        },
+                        {
+                            "name": "javax.servlet-api",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-javadoc.jar"
                         }
                     ]
                 },
@@ -2399,6 +3914,11 @@
                             "name": "asm",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm/7.0/asm-7.0-sources.jar"
+                        },
+                        {
+                            "name": "asm",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm/7.0/asm-7.0-javadoc.jar"
                         }
                     ]
                 },
@@ -2416,6 +3936,11 @@
                             "name": "conscrypt-openjdk-uber",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/conscrypt/conscrypt-openjdk-uber/2.1.0/conscrypt-openjdk-uber-2.1.0-sources.jar"
+                        },
+                        {
+                            "name": "conscrypt-openjdk-uber",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/conscrypt/conscrypt-openjdk-uber/2.1.0/conscrypt-openjdk-uber-2.1.0-javadoc.jar"
                         }
                     ]
                 },
@@ -2433,6 +3958,11 @@
                             "name": "handlebars",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/jknack/handlebars/4.1.2/handlebars-4.1.2-sources.jar"
+                        },
+                        {
+                            "name": "handlebars",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/jknack/handlebars/4.1.2/handlebars-4.1.2-javadoc.jar"
                         }
                     ]
                 },
@@ -2450,6 +3980,11 @@
                             "name": "jetty-servlets",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlets/9.4.20.v20190813/jetty-servlets-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "jetty-servlets",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlets/9.4.20.v20190813/jetty-servlets-9.4.20.v20190813-javadoc.jar"
                         }
                     ]
                 },
@@ -2467,6 +4002,11 @@
                             "name": "xmlunit-core",
                             "classifier": "sources",
                             "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/xmlunit/xmlunit-core/2.6.2/xmlunit-core-2.6.2-sources.jar"
+                        },
+                        {
+                            "name": "xmlunit-core",
+                            "classifier": "javadoc",
+                            "path": "/Users/richardmelvin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/xmlunit/xmlunit-core/2.6.2/xmlunit-core-2.6.2-javadoc.jar"
                         }
                     ]
                 }

@@ -1,3 +1,4 @@
+import play.core.PlayVersion
 import play.sbt.PlayImport.{guice, ws}
 import sbt._
 
@@ -11,9 +12,8 @@ object AppDependencies {
 
   val test = Seq(
     "org.mockito" % "mockito-core" % "3.3.0" % "test",
-    "org.scalatest" % "scalatest-core_0.22" % "3.3.0-SNAP2" % "test, it",
-    "org.scalatest" % "scalatest-mustmatchers_0.22" % "3.3.0-SNAP2" % "test, it",
-    "org.scalatest" % "scalatest-wordspec_0.22" % "3.3.0-SNAP2" % "test, it",
+    "org.scalatest" % "scalatest_0.22" % "3.3.0-SNAP2" % "test, it",
+    "com.typesafe.play" %% "play-test" % PlayVersion.current % "test, it",
     "com.github.tomakehurst" % "wiremock-jre8" % "2.26.3" % "it"
   )
 
